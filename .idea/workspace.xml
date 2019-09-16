@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FavoritesManager">
+    <favorites_list name="ChilternRailway" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/steps/commonsteps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gherkin feature file" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Bigparser" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/features/pages/header.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/commonPage.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/temporary.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/ChilternRailways.py" />
+        <option value="$PROJECT_DIR$/src/config.ini" />
+        <option value="$PROJECT_DIR$/src/features/environment.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/signinpage.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/ChilternRailways.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/commonsteps.py" />
+        <option value="$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/uuid.pyi" />
+        <option value="$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/BPSignInStepDefinations.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/BPSignInFunctions.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/steps/BPSignInStepDefinations.py" />
+        <option value="$PROJECT_DIR$/src/features/utilities/driver.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/ChilternRailways.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/FileUploadCofermationBox.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/FileUploadCencel.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/FileUploading.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/FileUploadOverwite.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/fielUploadComitDone.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/forgetPassword.feature" />
+        <option value="$PROJECT_DIR$/src/features/steps/BPSignInStep.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/BigParserSignIn.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/steps/RenameParticularGridStepFile.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/RenameParticularGrid.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/RenameAfterOpeningAGrid.feature" />
+        <option value="$PROJECT_DIR$/src/features/steps/DeleteFileStep.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/DeleteFile.feature" />
+        <option value="$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/DownloadFeatureFile.feature" />
+        <option value="$PROJECT_DIR$/src/features/pages/DownloadPageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/DeleteGridPageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/BPFileUpload.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/DownloadFileStep.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/FileDownloadingFeatureFile.feature" />
+        <option value="$PROJECT_DIR$/src/features/steps/FileUploadingSteps.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" />
+        <option value="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="966" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="featurefiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\av2\big\automation\ChilternRailway\src\features\steps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Behave.BPSignIn.feature:Verify all possitve and negative test cases">
+    <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="ChilternRailway" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BPSignIn.feature:Verify all possitve and negative test cases" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="ChilternRailway" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Verify all possitve and negative test cases" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DownloadFeatureFile.feature:Download a file and verify that it exists in download directry" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="ChilternRailway" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/DownloadFeatureFile.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Download a file and verify that it exists in download directry" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="ChilternRailway" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Share a file publically , unlistedly , privatly and verify it has been shared" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="ChilternRailway" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Share a file publically,unlistedly,privatly and verify it has been shared" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Behave.BPSignIn.feature:Verify all possitve and negative test cases" />
+        <item itemvalue="Behave.FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" />
+        <item itemvalue="Behave.FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared" />
+        <item itemvalue="Behave.BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" />
+        <item itemvalue="Behave.DownloadFeatureFile.feature:Download a file and verify that it exists in download directry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="" />
+      <created>1566472003858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566472003858</updated>
+      <workItem from="1566472005181" duration="12284000" />
+      <workItem from="1566542409125" duration="7743000" />
+      <workItem from="1566553375279" duration="15877000" />
+      <workItem from="1566573890336" duration="889000" />
+      <workItem from="1566720778601" duration="6115000" />
+      <workItem from="1566801244652" duration="23075000" />
+      <workItem from="1566886351373" duration="19457000" />
+      <workItem from="1566978833515" duration="1792000" />
+      <workItem from="1566988715837" duration="7239000" />
+      <workItem from="1567060783169" duration="19442000" />
+      <workItem from="1567149746692" duration="1327000" />
+      <workItem from="1567433820032" duration="4099000" />
+      <workItem from="1567507146321" duration="1047000" />
+      <workItem from="1567520519771" duration="1399000" />
+      <workItem from="1567579041373" duration="4040000" />
+      <workItem from="1568280652249" duration="596000" />
+      <workItem from="1568619801674" duration="17625000" />
+      <workItem from="1568641804943" duration="757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically_,_unlistedly_,_privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 44m 24s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically_,_unlistedly_,_privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 44m 42s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 45m 03s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 46m 23s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 48m 19s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 51m 37s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 17h 59m 38s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 18h 08m 26s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FileSharingFeatureFile_feature_Share_a_file_publically,unlistedly,privatly_and_verify_it_has_been_shared - 2019.09.16 at 18h 21m 03s.xml">
+      <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BPSignIn_feature_Verify_all_possitve_and_negative_test_cases - 2019.09.16 at 18h 51m 23s.xml">
+      <configuration name="BPSignIn.feature:Verify all possitve and negative test cases" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="144803000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="697" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.31123686" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.2700081" />
+      <window_info id="Favorites" order="2" sideWeight="0.501548" side_tool="true" weight="0.2700081" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.42756185" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286219" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.42932862" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3286219" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.28051737" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.2700081" />
+      <window_info id="Favorites" order="2" sideWeight="0.501548" side_tool="true" weight="0.2700081" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.42756185" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286219" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.42932862" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3286219" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="BPSignIn.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566554233264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$ChilternRailways_feature.coverage" NAME="ChilternRailways.feature Coverage Results" MODIFIED="1567150454573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature_Upload_files_with_deferent_formates.coverage" NAME="FileUploading.feature:Upload files with deferent formates Coverage Results" MODIFIED="1566994443453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$fielUploadComitDone_feature.coverage" NAME="fielUploadComitDone.feature Coverage Results" MODIFIED="1567150529828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature.coverage" NAME="BPSignIn.feature Coverage Results" MODIFIED="1567150405445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileSharingFeatureFile_feature_Share_a_file_publically___unlistedly___privatly_and_verify_it_has_been_shared.coverage" NAME="FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared Coverage Results" MODIFIED="1568637881808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$BPFileUpload.coverage" NAME="BPFileUpload Coverage Results" MODIFIED="1566899895330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$DownloadFeatureFile_feature_Download_a_file_and_verify_that_it_exists_in_download_directry.coverage" NAME="DownloadFeatureFile.feature:Download a file and verify that it exists in download directry Coverage Results" MODIFIED="1568621822496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$BPMainFlow_feature_Create_an_account_and_sigin_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1568626264988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$forgetPassword_feature.coverage" NAME="forgetPassword.feature Coverage Results" MODIFIED="1567067268523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$RenameParticularGripPageFile.coverage" NAME="RenameParticularGripPageFile Coverage Results" MODIFIED="1567079037357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
+    <SUITE FILE_PATH="coverage/Bigparser$BPSignIn_feature_Verify_all_possitve_and_negative_test_cases.coverage" NAME="BPSignIn.feature:Verify all possitve and negative test cases Coverage Results" MODIFIED="1568641842904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$BigParserFunctions.coverage" NAME="BigParserFunctions Coverage Results" MODIFIED="1566483701473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature.coverage" NAME="FileUploading.feature Coverage Results" MODIFIED="1566994245228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadOverwite_feature.coverage" NAME="FileUploadOverwite.feature Coverage Results" MODIFIED="1566996146104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCencel_feature.coverage" NAME="FileUploadCencel.feature Coverage Results" MODIFIED="1566994653716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$DeleteFile_feature_Delete_a_specific_grid_without_opening_it.coverage" NAME="DeleteFile.feature:Delete a specific grid without opening it Coverage Results" MODIFIED="1567437383649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$RenameAfterOpeningAGrid_feature.coverage" NAME="RenameAfterOpeningAGrid.feature Coverage Results" MODIFIED="1567088532253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature_Cencel_uploading_a_file_if_it_already_exist.coverage" NAME="FileUploading.feature:Cencel uploading a file if it already exist Coverage Results" MODIFIED="1566892845999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$fielUploadComitDone_feature_If_file_is_already_existing_cencel_by_clicking_cross_buttona_and_then_click_done_button_and_verify_that_no_file_gets_uploaded.coverage" NAME="fielUploadComitDone.feature:If file is already existing cencel by clicking cross buttona and then click done button and verify that no file gets uploaded Coverage Results" MODIFIED="1567062162902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileSharingFeatureFile_feature_Share_a_file_publically_unlistedly_privatly_and_verify_it_has_been_shared.coverage" NAME="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared Coverage Results" MODIFIED="1568639972113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature_Upload_files_but_dont_overwrite_exiting_file.coverage" NAME="FileUploadCofermationBox.feature:Upload files but dont overwrite exiting file Coverage Results" MODIFIED="1566994554584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature_Verify_all_possitve_and_negative_test_cases.coverage" NAME="BPSignIn.feature:Verify all possitve and negative test cases Coverage Results" MODIFIED="1566894283227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature_Upload_files_but_dont_overwrite_exiting_file.coverage" NAME="FileUploading.feature:Upload files but dont overwrite exiting file Coverage Results" MODIFIED="1566989015117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$RenameParticularGrid_feature.coverage" NAME="RenameParticularGrid.feature Coverage Results" MODIFIED="1567084381607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$ChilternRailways_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="ChilternRailways.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566892894173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$commonsteps.coverage" NAME="commonsteps Coverage Results" MODIFIED="1566477262667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/steps" />
+    <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature.coverage" NAME="FileUploadCofermationBox.feature Coverage Results" MODIFIED="1566994354083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/features/utilities/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/utilities/screenshot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/asyncore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="357" column="8" selection-start-line="357" selection-start-column="8" selection-end-line="357" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/runtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/switch_to.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-762174762/array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="153" column="8" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/behave/matchers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/behave/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/behave/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="625" selection-start-line="625" selection-end-line="625" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/utilities/driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="896" column="8" selection-start-line="896" selection-start-column="8" selection-end-line="896" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/signinpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/ChilternRailways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/ChilternRailways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/BPSignInStep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/BigParserSignIn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/forgetPassword.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileUploadCencel.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/fielUploadComitDone.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileUploadCofermationBox.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileUploadOverwite.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/ChilternRailways.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="77" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/RenameAfterOpeningAGrid.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" selection-start-line="10" selection-start-column="3" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/RenameParticularGrid.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" selection-start-line="10" selection-start-column="3" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/DeleteFile.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileUploading.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/DeleteFileStep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/DeleteGridPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/BigParserFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="121" column="93" selection-start-line="121" selection-start-column="93" selection-end-line="121" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/DownloadFeatureFile.feature" />
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="57" lean-forward="true" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileDownloadingFeatureFile.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/FileUploadingSteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/DownloadFileStep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/DownloadPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="481" column="8" selection-start-line="481" selection-start-column="8" selection-end-line="481" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/BPFileUpload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="2207" column="8" selection-start-line="2207" selection-start-column="8" selection-end-line="2207" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/commonsteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
