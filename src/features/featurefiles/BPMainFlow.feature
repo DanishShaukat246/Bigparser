@@ -1,4 +1,4 @@
-# Created by ZAWAR-PC at 9/4/2019
+
 Feature: Bigparser gereral flow which a user follows in this web Application
 
   Scenario: Create an account and sigin in.Then upload a file , rename it and logout after deleting that file
