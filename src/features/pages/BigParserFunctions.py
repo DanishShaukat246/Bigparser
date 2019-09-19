@@ -71,7 +71,7 @@ class benefitsPages(Header):
         assert (f)
 
     def rendomizeEmail(self):
-        nRand = randint(1, 101)
+        nRand = randint(1, 1001)
         emailToBeCleared = self.browser.find_element(*self.Locator_login_buttons['EmailForSignUp'])
         emailToBeCleared.clear()
         emailToBeCleared.send_keys("Tester" + str(nRand) + "@gmail.com")

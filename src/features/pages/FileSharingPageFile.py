@@ -52,21 +52,23 @@ class Share(Header):
         "DoneButtons": (By.XPATH, '/html/body/div/ui-view/div[5]/div[6]/div/footer/div/div/input'),
         "cencelButton": (By.XPATH, '/html/body/div[1]/ui-view/div[5]/div[6]/div/footer/div/div/a'),
         "PublicRadioButton":(By.XPATH,'//*[@id="file-xml"]'),
-        "MyData":(By.XPATH,'/html/body/div[1]/ui-view/div[5]/div[1]/div/ul/li[1]/a'),
-        "Public":(By.XPATH,'/html/body/div[1]/ui-view/div[1]/div[1]/div/ul/li[2]/a'),
+        "MyData":(By.XPATH,'/html/body/div[1]/ui-view/div[1]/div[1]/div/ul/li[1]/a'),
+        "Public":(By.XPATH,'/html/body/div[1]/ui-view/div[5]/div[1]/div/ul/li[2]/a'),
         "Shared":(By.XPATH,'/html/body/div[1]/ui-view/div[1]/div[1]/div/ul/li[3]/a'),
         "PublicTabLink":(By.XPATH,'//*[@id="slSuccessMesg"]/ul/li[2]/a'),
         "ShareButtonModal":(By.XPATH,'//*[@id="shareModal"]/div/footer/div[1]/div/div/input'),
         "ShareSuccessMessage":(By.XPATH,'//*[@id="slSuccessMesg"]'),
         "LattestUploadPublicTab":(By.XPATH,'/html/body/div/ui-view/div[1]/div[4]/div/div/ol/li[1]/div/div[1]/div[1]/a/div[1]/h2'),
         "ShareCount":(By.XPATH,'/html/body/div[1]/ui-view/div[5]/div[3]/div/div[3]/ol/li[2]/div/div/div[2]/div[1]/ul/li[1]/span[2]'),
-        "CloseShareModal":(By.XPATH,'/html/body/div[4]/div/div/div/div/div/div/header/span'),
+        "CloseShareModal":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/header/span'),
         "Facebook":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[3]/div[2]/a[1]'),
         "Twitter":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[3]/div[2]/a[2]'),
         "Google":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[3]/div[2]/a[3]'),
         "Linkdin":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[3]/div[2]/a[4]'),
-        "CrossMessage":(By.XPATH,'/html/body/div[4]/div/div/div/div/div/div/form/div/div[2]/div[2]/span'),
-        "LinkCopyMessage":(By.XPATH,'/html/body/div[4]/div/div/div/div/div/div/form/div/div[2]/div[2]'),
+        "CrossButtonAfterError":(By.XPATH,'//*[@id="shareModal"]/div/header/div/span[1]'),
+        "okeyButton":(By.XPATH,'//*[@id="confirmShareModal"]/div/div/footer/div/div/input'),
+        "CrossMessage":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[2]/div[2]/span'),
+        "LinkCopyMessage":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[2]/div[2]/p'),
         "CopyButton":(By.XPATH,'/html/body/div[3]/div/div/div/div/div/div/form/div/div[2]/div[1]/a'),
         "newRadioButton": (By.XPATH, '/html/body/div/ui-view/div[5]/div[6]/div/div[2]/ul/li[2]/div[2]/input'),
         "Existing email error pop up": (By.XPATH, '/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[2]/div/div[3]')
@@ -76,24 +78,49 @@ class Share(Header):
         time.sleep(2)
 
     def PublicRadio(self):
-        self.browser.find_element(*self.Locator_login_buttons['PublicRadioButton']).click()
+        rr = self.browser.find_element(*self.Locator_login_buttons['PublicRadioButton']).is_selected()
+        pp = False
+        if (rr == True):
+            pp = True
+            assert (pp)
+        else:
+            self.browser.find_element(*self.Locator_login_buttons['PublicRadioButton']).click()
 
     def ClickShareButton(self):
-        self.browser.find_element(*self.Locator_login_buttons['ShareButtonModal']).click()
+        okey=self.browser.find_element(*self.Locator_login_buttons['okeyButton']).is_displayed()
+        if(okey==True):
+            self.browser.find_element(*self.Locator_login_buttons['okeyButton']).click()
+            time.sleep(2)
+            self.browser.find_element(*self.Locator_login_buttons['CrossButtonAfterError']).click()
+        else:
+            self.browser.find_element(*self.Locator_login_buttons['ShareButtonModal']).click()
         time.sleep(2)
 
     def VerifySuccess(self):
         dd=self.browser.find_element(*self.Locator_login_buttons['ShareSuccessMessage']).is_displayed()
-        assert (dd)
+        if(dd):
+          assert (dd)
+        else:
+            time.sleep(5)
+            self.browser.find_element(*self.Locator_login_buttons['okeyButton']).click()
+            time.sleep(2)
+            self.browser.find_element(*self.Locator_login_buttons['CrossButtonAfterError']).click()
+            time.sleep(3)
+            self.browser.find_element(*self.Locator_login_buttons['Public']).click()
         time.sleep(2)
 
     def GoPublic(self):
-        self.browser.find_element(*self.Locator_login_buttons['PublicTabLink']).click()
-        time.sleep(3)
+        try:
+           qq=self.browser.find_element(*self.Locator_login_buttons['PublicTabLink']).is_displayed()
+           if(qq):
+              self.browser.find_element(*self.Locator_login_buttons['PublicTabLink']).click()
+              time.sleep(3)
+        except:
+            assert (True)
 
     def VerifyPresence(self):
         fileTitle = self.browser.find_element(*self.Locator_login_buttons["LattestUploadPublicTab"]).text
-        if fileTitle == 'RenameTest':
+        if fileTitle == 'Second Edited Name':
             a = True
         else:
             a = False
@@ -113,6 +140,7 @@ class Share(Header):
         assert (ff)
 
     def CloseSuccessMsg(self):
+        time.sleep(3)
         self.browser.find_element(*self.Locator_login_buttons['CrossMessage']).click()
         time.sleep(2)
 
@@ -130,9 +158,11 @@ class Share(Header):
         assert (hh)
 
     def CloseModal(self):
+        time.sleep(3)
         self.browser.find_element(*self.Locator_login_buttons['CloseShareModal']).click()
 
     def GoToMyData(self):
+        time.sleep(3)
         self.browser.find_element(*self.Locator_login_buttons['MyData']).click()
 
     def VerifyShareCount(self):
@@ -140,7 +170,7 @@ class Share(Header):
         hh = self.browser.find_element(*self.Locator_login_buttons['ShareCount']).text
         kk=str(hh)
         m=False
-        if(kk==1):
+        if(kk>=1):
             m=True
             assert (m)
         else:

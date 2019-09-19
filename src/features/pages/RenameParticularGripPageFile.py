@@ -139,7 +139,7 @@ class Rename(Header):
         time.sleep(5)
         self.browser.find_element(*self.Locator_login_buttons["RenameAfterOpenEditField"]).clear()
         time.sleep(2)
-        self.browser.find_element(*self.Locator_login_buttons["RenameAfterOpenEditField"]).send_keys("Edited Name")
+        self.browser.find_element(*self.Locator_login_buttons["RenameAfterOpenEditField"]).send_keys("Second Edited Name")
 
     def ClickRenameButton(self):
         time.sleep(5)
@@ -162,7 +162,7 @@ class Rename(Header):
         x=self.browser.find_element(*self.Locator_login_buttons["EditedName"])
         y = x.text
         n = False
-        if y == "Edited Name":
+        if y == "Second Edited Name":
             n = True
         else:
             assert (n)

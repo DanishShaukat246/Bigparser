@@ -8,7 +8,7 @@ import time
 use_step_matcher("re")
 
 
-@then("Delete any file")
+@then("Delete that file")
 def step_impl(context):
     delete =DeleteGrid(context)
     delete.DeleteGrid()

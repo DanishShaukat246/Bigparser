@@ -58,9 +58,9 @@ class Download(Header):
         time.sleep(3)
         self.browser.find_element(*self.Locator_login_buttons['DownloadButton']).click()
         time.sleep(5)
-        while not os.path.exists('E:\\av2\\big\\automation\\ChilternRailway\\downloads\\RenameTest.xlsx'):
+        while not os.path.exists('E:\\av2\\big\\automation\\Bigparser\\downloads\\RenameTest.xlsx'):
             time.sleep(3)
-        if os.path.isfile('E:\\av2\\big\\automation\\ChilternRailway\\downloads\\RenameTest.xlsx'):
+        if os.path.isfile('E:\\av2\\big\\automation\\Bigparser\\downloads\\RenameTest.xlsx'):
             print ("File Downloaded Successfuly ! \n")
         else :
             print("File download failed !  \n")

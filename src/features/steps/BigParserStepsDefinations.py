@@ -12,7 +12,7 @@ class groupSteps():
 
 
 
-  @then("Enter name in ful name field")
+  @then("Enter name in full name field")
   def step_impl(context):
     bp=benefitsPages(context)
     bp.entername()
