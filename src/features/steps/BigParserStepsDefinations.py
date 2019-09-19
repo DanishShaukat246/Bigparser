@@ -24,7 +24,7 @@ def step_impl(context):
     bp.enterPassword()
 
 
-@then("Enter email in emial field")
+@then("Enter email in email field")
 def step_impl(context):
     bp=benefitsPages(context)
     bp.enterEmailForSignUp()

@@ -6,7 +6,7 @@ Feature: Bigparser gereral flow which a user follows in this web Application
     Then verify that all mendatory fields are present
     Then Enter name in full name field
     Then Enter Password in passsword field
-    Then Enter email in emial field
+    Then Enter email in email field
     Then Click on Sign Up button
     Then verify that user shows eror massage of already existing email
     Then Enter new mail which is not already register
