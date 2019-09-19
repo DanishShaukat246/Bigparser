@@ -1,16 +1,16 @@
 
-Feature: Bigparser gereral flow which a user follows in this web Application
+Feature: Bigparser general flow which a user follows in this web Application
 
-  Scenario: Create an account and sigin in.Then upload a file , rename it and logout after deleting that file
+  Scenario: Create an account and sig in in.Then upload a file , rename it and logout after deleting that file
     Given user is at home page
-    Then verify that all mendatory fields are present
+    Then verify that all mandatory fields are present
     Then Enter name in full name field
-    Then Enter Password in passsword field
+    Then Enter Password in password field
     Then Enter email in email field
     Then Click on Sign Up button
-    Then verify that user shows eror massage of already existing email
+    Then verify that user shows error massage of already existing email
     Then Enter new mail which is not already register
-    Then click pn sign up button again
+    Then click on sign up button again
     Then verify that user is on get started page
     Then click on continue and next button then ultimately finish demo screen
     Then verify that uploading box is present
@@ -20,16 +20,16 @@ Feature: Bigparser gereral flow which a user follows in this web Application
     Then click on Rename
     Then Clear rename text field and Enter new name
     Then click on done button
-    Then Verify that Rename Confermation note apears
+    Then Verify that Rename Confirmation note appears after this
     Then Click on Cross button
-    Then verify that Grid apears with edited name
+    Then verify that Grid appears with edited name
     Then Open that grid
     Then Bypass demo widgets
     Then Click on more options button
     Then Click on Rename file
-    Then Clear editfield and enter new name
+    Then Clear edit field and enter new name
     Then Click on Rename button
-    Then Verify that Rename confermation note apears now
+    Then Verify that Rename confirmation note appears now
     Then click close it
     Then Verify that name has been edited
     Then close that grid

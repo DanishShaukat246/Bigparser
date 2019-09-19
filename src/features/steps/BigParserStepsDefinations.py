@@ -18,7 +18,7 @@ class groupSteps():
     bp.entername()
 
 
-@then("Enter Password in passsword field")
+@then("Enter Password in password field")
 def step_impl(context):
     bp=benefitsPages(context)
     bp.enterPassword()
@@ -42,13 +42,13 @@ def step_impl(context):
     bp.ClickCreateAccuntButton()
 
 
-@then("verify that all mendatory fields are present")
+@then("verify that all mandatory fields are present")
 def step_impl(context):
     bp=benefitsPages(context)
     bp.VerifyPresenceSignUp()
 
 
-@then("verify that user shows eror massage of already existing email")
+@then("verify that user shows error massage of already existing email")
 def step_impl(context):
     bp=benefitsPages(context)
     bp.LocatePopUp()
@@ -60,7 +60,7 @@ def step_impl(context):
     bp.rendomizeEmail()
 
 
-@then("click pn sign up button again")
+@then("click on sign up button again")
 def step_impl(context):
     bp=benefitsPages(context)
     bp.afterRandomizing()

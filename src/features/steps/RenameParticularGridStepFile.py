@@ -37,7 +37,7 @@ def step_impl(context):
     bp.RenameDone()
 
 
-@then("Verify that Rename Confermation note apears")
+@then("Verify that Rename Confirmation note appears after this")
 def step_impl(context):
     bp = Rename(context)
     bp.RenameConfermation()
@@ -49,7 +49,7 @@ def step_impl(context):
     bp.RenameClose()
 
 
-@then("verify that Grid apears with edited name")
+@then("verify that Grid appears with edited name")
 def step_impl(context):
     bp = Rename(context)
     bp.VerifyRenamed()
@@ -73,7 +73,7 @@ def step_impl(context):
     bp.RenameClickOpenedFile()
 
 
-@then("Clear editfield and enter new name")
+@then("Clear edit field and enter new name")
 def step_impl(context):
     bp = Rename(context)
     bp.EditthatName()
@@ -85,7 +85,7 @@ def step_impl(context):
     bp.ClickRenameButton()
 
 
-@then("Verify that Rename confermation note apears now")
+@then("Verify that Rename confirmation note appears now")
 def step_impl(context):
     bp = Rename(context)
     bp.ConfermafterOpen()
