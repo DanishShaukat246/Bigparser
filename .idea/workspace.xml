@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/ChilternRailways.feature" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="119">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -29,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="510">
               <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -41,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="1530">
               <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="221">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -74,10 +73,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-173">
+              <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,36 +181,36 @@
         <subPane>
           <expand>
             <path>
-              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigParserAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigParserAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigParserAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigParserAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="featurefiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigParserAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Bigparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigParserAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bigparser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
@@ -237,25 +248,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Behave.BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file">
-    <configuration default="true" type="DjangoTestsConfigurationType">
+  <component name="RunManager" selected="Behave.BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file">
+    <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="BigParserAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
@@ -285,21 +291,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" />
       <SCENRAIO_NAMES SCENRAIO_NAMES="Verify all possitve and negative test cases" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DownloadFeatureFile.feature:Download a file and verify that it exists in download directry" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/DownloadFeatureFile.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Download a file and verify that it exists in download directry" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -333,120 +324,13 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" />
         <item itemvalue="Behave.BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" />
         <item itemvalue="Behave.FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" />
         <item itemvalue="Behave.BPSignIn.feature:Verify all possitve and negative test cases" />
         <item itemvalue="Behave.FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared" />
-        <item itemvalue="Behave.DownloadFeatureFile.feature:Download a file and verify that it exists in download directry" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +366,8 @@
       <workItem from="1568808116605" duration="2229000" />
       <workItem from="1568875788545" duration="5828000" />
       <workItem from="1568899190545" duration="1571000" />
-      <workItem from="1568984151284" duration="1014000" />
+      <workItem from="1568984151284" duration="1642000" />
+      <workItem from="1569232025186" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="Clearification">
       <created>1568877711641</created>
@@ -526,16 +411,17 @@
       <option name="project" value="LOCAL" />
       <updated>1568901647734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clearification">
+      <created>1568985766784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568985766784</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BPMainFlow_feature_Create_an_account_and_sigin_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.17 at 16h 00m 27s.xml">
-      <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
-    <history-entry file="BPMainFlow_feature_Create_an_account_and_sigin_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.17 at 16h 19m 16s.xml">
-      <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
-    </history-entry>
     <history-entry file="BPMainFlow_feature_Create_an_account_and_sigin_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.17 at 16h 22m 03s.xml">
       <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
@@ -560,9 +446,15 @@
     <history-entry file="BPMainFlow_feature_Create_an_account_and_sigin_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.18 at 18h 03m 56s.xml">
       <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.23 at 14h 52m 06s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.23 at 14h 59m 06s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174270000" />
+    <option name="totallyTimeSpent" value="175577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,8 +467,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="697" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.327405" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.33306387" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.2700081" />
       <window_info id="Favorites" order="2" sideWeight="0.501548" side_tool="true" weight="0.2700081" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -702,6 +595,7 @@
     <SUITE FILE_PATH="coverage/ChilternRailway$ChilternRailways_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="ChilternRailways.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566892894173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$commonsteps.coverage" NAME="commonsteps Coverage Results" MODIFIED="1566477262667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/steps" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature.coverage" NAME="FileUploadCofermationBox.feature Coverage Results" MODIFIED="1566994354083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1569232428114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/features/utilities/screenshot.py">
@@ -1020,16 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/steps/DeleteFileStep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1050,10 +934,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/Bigparser.feature" />
+    <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="510">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -1067,47 +972,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/Bigparser.feature">
+    <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py">
+    <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="-173">
+          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="119">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>

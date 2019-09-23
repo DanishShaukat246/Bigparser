@@ -48,5 +48,5 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then close share modal
     Then go back to My Data tab
     Then verify that share count of that file has been updated
-    Then Delete that file
+    Then Delete the file
     Then sign out
