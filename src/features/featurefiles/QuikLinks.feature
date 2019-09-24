@@ -14,3 +14,21 @@ Feature: Quick Links
     Then verify that user is on get started page
     Then click on continue and next button then ultimately finish demo screen
     Then Howe over profile icon and select Quick links
+    Then Click on Get Started
+    Then click on continue and next button then ultimately finish demo screen
+    Then Howe over profile icon and select Quick links
+    Then Click on Watch a Video
+    Then Verify that video is loaded
+    Then Close Video
+    Then Howe over profile icon and select Quick links
+    Then Click on Chat with Us
+    Then Howe over profile icon and select Quick links
+    Then Click on Show Hints
+    Then Verify that user is on Hints page
+    Then Close Hints Page
+    Then Howe over profile icon and select Quick links
+    Then Click on Apply for Jobs/Internships
+    Then Verify that user is on Jobs / Internship Application form
+    Then Close that page and go to main page
+
+
