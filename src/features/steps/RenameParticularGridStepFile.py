@@ -103,7 +103,7 @@ def step_impl(context):
     bp.Check()
 
 
-@then("close that grid")
+@then("close grid")
 def step_impl(context):
     bp = Rename(context)
     bp.CloseGrid()

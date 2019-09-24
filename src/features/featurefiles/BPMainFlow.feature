@@ -32,7 +32,7 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then Verify that Rename confirmation note appears now
     Then click close it
     Then Verify that name has been edited
-    Then close that grid
+    Then close grid
     Then click on share button
     Then check public radio button
     Then Click on Share Button to share file
