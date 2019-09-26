@@ -1,6 +1,8 @@
 from lib2to3.fixes.fix_input import context
 from uuid import UUID
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import json, os
 from src.features.pages.header import Header
@@ -71,8 +73,10 @@ class benefitsPages(Header):
         assert (f)
 
     def rendomizeEmail(self):
-        nRand = randint(1, 1001)
-        emailToBeCleared = self.browser.find_element(*self.Locator_login_buttons['EmailForSignUp'])
+        nRand = randint(1, 9999)
+
+        emailToBeCleared = WebDriverWait(self.browser,10).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["EmailForSignUp"]))
         emailToBeCleared.clear()
         emailToBeCleared.send_keys("Tester" + str(nRand) + "@gmail.com")
 

@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (1).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/steps/ChilternRailways.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/steps/commonsteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/commonsteps.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="150">
+              <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -39,10 +49,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/featurefiles/QuikLinks.feature">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/BigParserFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="119">
+              <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/UnSharePageFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2516">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/QuickLinksPageFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/features/environment.py" />
         <option value="$PROJECT_DIR$/src/features/pages/signinpage.py" />
         <option value="$PROJECT_DIR$/src/features/steps/ChilternRailways.py" />
-        <option value="$PROJECT_DIR$/src/features/steps/commonsteps.py" />
         <option value="$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/uuid.pyi" />
         <option value="$PROJECT_DIR$/src/features/steps/BPSignInStepDefinations.py" />
         <option value="$PROJECT_DIR$/src/features/pages/BPSignInFunctions.py" />
@@ -105,16 +171,20 @@
         <option value="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" />
         <option value="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" />
         <option value="$PROJECT_DIR$/src/features/pages/DownloadPageFile.py" />
-        <option value="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" />
-        <option value="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" />
         <option value="$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py" />
         <option value="$PROJECT_DIR$/src/features/steps/DeleteFileStep.py" />
         <option value="$PROJECT_DIR$/src/features/featurefiles/QuikLinks.feature" />
         <option value="$PROJECT_DIR$/src/features/steps/QuikLinksStepFile.py" />
         <option value="$PROJECT_DIR$/src/features/pages/QuickLinksPageFile.py" />
-        <option value="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" />
-        <option value="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" />
         <option value="$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/commonsteps.py" />
+        <option value="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" />
+        <option value="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" />
+        <option value="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" />
+        <option value="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" />
       </list>
     </option>
   </component>
@@ -132,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +245,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,21 +304,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BPSignIn.feature:Verify all possitve and negative test cases" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="BigParserAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Verify all possitve and negative test cases" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="BigParserAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,13 +334,28 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unshare.feature:Unsharing a file in all possible scenarios" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="BigParserAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="Unsharing a file in all possible scenarios" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Behave.BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" />
+        <item itemvalue="Behave.Unshare.feature:Unsharing a file in all possible scenarios" />
         <item itemvalue="Behave.QuikLinks.feature:Open Quick links and verify that they are loading and working fine" />
         <item itemvalue="Behave.BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" />
         <item itemvalue="Behave.FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" />
-        <item itemvalue="Behave.BPSignIn.feature:Verify all possitve and negative test cases" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +394,10 @@
       <workItem from="1568984151284" duration="1642000" />
       <workItem from="1569232025186" duration="11852000" />
       <workItem from="1569309550900" duration="2425000" />
-      <workItem from="1569324389452" duration="626000" />
+      <workItem from="1569324389452" duration="727000" />
+      <workItem from="1569392414683" duration="702000" />
+      <workItem from="1569413005732" duration="5879000" />
+      <workItem from="1569493783224" duration="3538000" />
     </task>
     <task id="LOCAL-00001" summary="Clearification">
       <created>1568877711641</created>
@@ -386,39 +459,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 17h 20m 54s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="Unshare_feature_Unsharing_a_file_in_all_possible_scenarios - 2019.09.25 at 18h 13m 52s.xml">
+      <configuration name="Unshare.feature:Unsharing a file in all possible scenarios" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 17h 39m 55s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="Unshare_feature_Unsharing_a_file_in_all_possible_scenarios - 2019.09.25 at 18h 20m 38s.xml">
+      <configuration name="Unshare.feature:Unsharing a file in all possible scenarios" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 17h 47m 57s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="Unshare_feature_Unsharing_a_file_in_all_possible_scenarios - 2019.09.25 at 18h 29m 05s.xml">
+      <configuration name="Unshare.feature:Unsharing a file in all possible scenarios" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 18h 02m 47s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="Unshare_feature_Unsharing_a_file_in_all_possible_scenarios - 2019.09.25 at 18h 33m 24s.xml">
+      <configuration name="Unshare.feature:Unsharing a file in all possible scenarios" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 18h 50m 41s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.26 at 15h 39m 13s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 18h 53m 31s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.26 at 15h 45m 08s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 19h 35m 40s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.26 at 16h 02m 32s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 19h 39m 56s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.26 at 16h 11m 34s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine - 2019.09.23 at 19h 44m 26s.xml">
-      <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" configurationId="PyBehaveRunConfigurationType" />
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.26 at 16h 19m 54s.xml">
+      <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
-    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.23 at 19h 52m 41s.xml">
+    <history-entry file="BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file_,_rename_it_and_logout_after_deleting_that_file - 2019.09.26 at 16h 28m 58s.xml">
       <configuration name="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" configurationId="PyBehaveRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189801000" />
+    <option name="totallyTimeSpent" value="200021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,12 +506,12 @@
     <frame x="-7" y="-7" width="1295" height="697" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.34438157" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.36135814" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.2700081" />
       <window_info id="Favorites" order="2" sideWeight="0.501548" side_tool="true" weight="0.2700081" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.42756185" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.42756185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,7 +520,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286219" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.42932862" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286219" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3286219" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,12 +530,12 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.33306387" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498452" visible="true" weight="0.35569927" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.2700081" />
       <window_info id="Favorites" order="2" sideWeight="0.501548" side_tool="true" weight="0.2700081" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.42756185" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.42756185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +544,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286219" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.42932862" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286219" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3286219" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -537,6 +610,7 @@
     <SUITE FILE_PATH="coverage/ChilternRailway$fielUploadComitDone_feature.coverage" NAME="fielUploadComitDone.feature Coverage Results" MODIFIED="1567150529828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature.coverage" NAME="BPSignIn.feature Coverage Results" MODIFIED="1567150405445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileSharingFeatureFile_feature_Share_a_file_publically___unlistedly___privatly_and_verify_it_has_been_shared.coverage" NAME="FileSharingFeatureFile.feature:Share a file publically , unlistedly , privatly and verify it has been shared Coverage Results" MODIFIED="1568637881808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$Unshare_feature_Unsharing_a_file_in_all_possible_scenarios.coverage" NAME="Unshare.feature:Unsharing a file in all possible scenarios Coverage Results" MODIFIED="1569418294063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPFileUpload.coverage" NAME="BPFileUpload Coverage Results" MODIFIED="1566899895330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
     <SUITE FILE_PATH="coverage/ChilternRailway$DownloadFeatureFile_feature_Download_a_file_and_verify_that_it_exists_in_download_directry.coverage" NAME="DownloadFeatureFile.feature:Download a file and verify that it exists in download directry Coverage Results" MODIFIED="1568621822496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPMainFlow_feature_Create_an_account_and_sigin_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1568626264988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -560,30 +634,9 @@
     <SUITE FILE_PATH="coverage/ChilternRailway$ChilternRailways_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="ChilternRailways.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566892894173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$commonsteps.coverage" NAME="commonsteps Coverage Results" MODIFIED="1566477262667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/steps" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature.coverage" NAME="FileUploadCofermationBox.feature Coverage Results" MODIFIED="1566994354083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1569249973271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1569497004726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/runtime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/pages/basepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/switch_to.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-762174762/array.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -639,16 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="896" column="8" selection-start-line="896" selection-start-column="8" selection-end-line="896" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/ChilternRailways.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,16 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/commonsteps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -785,46 +818,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/featurefiles/Bigparser.feature" />
-    <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/pages/signinpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="43" column="37" lean-forward="true" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/steps/DeleteFileStep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -899,9 +892,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/QuikLinksStepFile.py">
+    <entry file="file://$PROJECT_DIR$/src/features/steps/ChilternRailways.py" />
+    <entry file="file://$PROJECT_DIR$/src/features/pages/signinpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="481" column="8" selection-start-line="481" selection-start-column="8" selection-end-line="481" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/UnshareStepFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/commonsteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/QuikLinks.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/QuikLinksStepFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
           <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
@@ -909,64 +967,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/Unshare.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="481" column="8" selection-start-line="481" selection-start-column="8" selection-end-line="481" selection-end-column="8" />
+        <state relative-caret-position="439">
+          <caret line="29" column="63" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="29" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/pages/QuickLinksPageFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="99" column="98" selection-start-line="99" selection-start-column="98" selection-end-line="99" selection-end-column="98" />
+        <state relative-caret-position="68">
+          <caret line="16" selection-start-line="16" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
           <folding>
-            <element signature="e#2#12#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/pages/UnSharePageFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/pages/BigParserFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/featurefiles/QuikLinks.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/steps/RenameParticularGridStepFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>

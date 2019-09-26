@@ -18,6 +18,9 @@ import random
 import datetime
 from array import *
 from src.features.pages.temporary import *
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from src.features.pages.signinpage import SignInPage
 from random import *
 
@@ -119,7 +122,9 @@ class Share(Header):
             assert (True)
 
     def VerifyPresence(self):
-        fileTitle = self.browser.find_element(*self.Locator_login_buttons["LattestUploadPublicTab"]).text
+        loateFile=WebDriverWait(self.browser,10).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["LattestUploadPublicTab"]))
+        fileTitle = loateFile.text
         if fileTitle == 'Second Edited Name':
             a = True
         else:
@@ -162,8 +167,9 @@ class Share(Header):
         self.browser.find_element(*self.Locator_login_buttons['CloseShareModal']).click()
 
     def GoToMyData(self):
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons['MyData']).click()
+        myData = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["MyData"]))
+        myData.click()
 
     def VerifyShareCount(self):
         time.sleep(5)

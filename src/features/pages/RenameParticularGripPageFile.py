@@ -3,7 +3,10 @@ from selenium.webdriver.common.by import By
 import sys
 from src.features.pages.header import Header
 from src.features.utilities import driver
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from src.features.pages.header import Header
 sys.path.append("..")
 from ..utilities import configuration
 import time
@@ -24,7 +27,7 @@ class Rename(Header):
         "DemoFinish": (By.XPATH, '/html/body/bp-global-overlays/div[5]/div[4]/div[2]/button'),
         "Cross":(By.XPATH,'/html/body/div[3]/div/div/div/div/header/div/span'),
         "EditedConfermationafteropening":(By.XPATH,'/html/body/div[3]/div/div/div/div/div[1]/p/a'),
-        "RenameAfterOpen":(By.XPATH,'/html/body/div/ui-view/div/div/div[1]/header/div[1]/div[2]/div[1]/div[2]/ul/ul/li[2]/span/a'),
+        "RenameAfterOpen":(By.XPATH,'/html/body/div/ui-view/div/div/div[1]/header/div[1]/div[2]/div[1]/div[2]/ul/ul/li[1]/span/a'),
         "CrossButton": (By.XPATH, '/html/body/div/ui-view/div[5]/div[6]/div/div[2]/ul/li[2]/span[2]'),
         "PasswordForSignIn": (By.XPATH, '//*[@id="mainheader"]/div[3]/div/header/div/div[2]/div[1]/form/div[1]/div[1]/div[2]/input'),
         "SignInButton": (By.XPATH, '//*[@id="mainheader"]/div[3]/div/header/div/div[2]/div[1]/form/input'),
@@ -66,8 +69,8 @@ class Rename(Header):
          time.sleep(20)
         else:
          c==False
-         time.sleep(20)
-        d = self.browser.find_element(*self.Locator_login_buttons["LattestUploadedFile"])
+        d=WebDriverWait(self.browser,20).until(
+             EC.presence_of_element_located(self.Locator_login_buttons["LattestUploadedFile"]))
         e=d.text
         f=False
         if e=="RenameTest":
@@ -118,12 +121,11 @@ class Rename(Header):
         else:
          assert (u)
         assert (u)
-        time.sleep(5)
         print ("File has been renamed without opening using more options button under grid ! \n")
     def OpenGrid(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["GridToOpen"]).click()
-        time.sleep(10)
+        updatedGrid=WebDriverWait(self.browser,10).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["GridToOpen"]))
+        updatedGrid.click()
 
     def MoreOptions(self):
         time.sleep(5)
@@ -131,8 +133,9 @@ class Rename(Header):
         time.sleep(3)
 
     def RenameClickOpenedFile(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["RenameAfterOpen"]).click()
+        renameOption=WebDriverWait(self.browser,20).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["RenameAfterOpen"]))
+        renameOption.click()
         time.sleep(3)
 
     def EditthatName(self):
@@ -174,8 +177,9 @@ class Rename(Header):
         time.sleep(10)
 
     def Bypass(self):
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons["FirstNext"]).click()
+        FirstNext=WebDriverWait(self.browser,20).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["FirstNext"]))
+        FirstNext.click()
         time.sleep(2)
         self.browser.find_element(*self.Locator_login_buttons["FitlersNext"]).click()
         time.sleep(2)

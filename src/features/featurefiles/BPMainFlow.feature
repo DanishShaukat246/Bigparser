@@ -48,6 +48,12 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then close share modal
     Then go back to My Data tab
     Then verify that share count of that file has been updated
+    Then Click on Share Button bellow that grid
+    Then Click on Drop down icon on share button
+    Then Click on Unshare
+    Then Verify that Confirmation pop up appears
+    Then Click on Unshare on button of Confirmation dialogue box
+    Then Verify that share count updates after unsharing a grid
     Then Delete the file
     Then Howe over profile icon and select Quick links
     Then Click on Get Started
