@@ -40,3 +40,43 @@ def step_impl(context):
 def step_impl(context):
     unshare = Unshare(context)
     unshare.shareCount()
+
+@then("Open that gird which you have just shared")
+def step_impl(context):
+    pass
+
+
+@then("Click on Share button which appears top right side of grid after opening it")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.Open()
+
+
+@then("Click on drop down icon of share button")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.UnshareDropDown()
+
+
+@then("click on unshare option")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.UnshareOptionClick()
+
+
+@then("click on ushare button of confirmation dialogue")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.ConfrimUnshare()
+
+
+@then("close the grid")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.CloseIt()
+
+
+@then("Click Cross button and Close Share modal")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.CloseShareModal()

@@ -14,13 +14,13 @@ Feature:File Sharing
     Then Click on Share Button to share file
     Then verify share success message appears
     Then go to public tab
-    Then verify that shared file is present in public tab
-    Then click on share button under shred file in shared tab
-    Then verify that social share options are present
-    Then verify that sharable link and copy button are present
-    Then click on copy button to copy sharable link
-    Then verify that sharable link is copies successfully
-    Then close success message
-    Then close share modal
+#    Then verify that shared file is present in public tab
+#    Then click on share button under shred file in shared tab
+#    Then verify that social share options are present
+#    Then verify that sharable link and copy button are present
+#    Then click on copy button to copy sharable link
+#    Then verify that sharable link is copies successfully
+#    Then close success message
+#    Then close share modal
     Then go back to My Data tab
     Then verify that share count of that file has been updated

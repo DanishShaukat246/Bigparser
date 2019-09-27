@@ -54,6 +54,18 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then Verify that Confirmation pop up appears
     Then Click on Unshare on button of Confirmation dialogue box
     Then Verify that share count updates after unsharing a grid
+    Then click on share button
+    Then check public radio button
+    Then Click on Share Button to share file
+    Then verify share success message appears
+    Then Click Cross button and Close Share modal
+    Then Open that grid
+    Then Click on Share button which appears top right side of grid after opening it
+    Then Click on drop down icon of share button
+    Then click on unshare option
+    Then click on ushare button of confirmation dialogue
+    Then close the grid
+    Then Verify that share count updates after unsharing a grid
     Then Delete the file
     Then Howe over profile icon and select Quick links
     Then Click on Get Started

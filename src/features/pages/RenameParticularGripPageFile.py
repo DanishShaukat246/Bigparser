@@ -61,7 +61,7 @@ class Rename(Header):
     def loadBigparserSignIn(self):
         time.sleep(3)
         self.browser.find_element(*self.Locator_login_buttons["upload"]).send_keys("E:\\Bigparser\\RenameTest.xlsx")
-        time.sleep(5)
+        time.sleep(10)
         c=self.browser.find_element(*self.Locator_login_buttons["ConfermationBox"]).is_displayed()
         if c==True:
          time.sleep(3)
@@ -126,7 +126,7 @@ class Rename(Header):
         updatedGrid=WebDriverWait(self.browser,10).until(
             EC.presence_of_element_located(self.Locator_login_buttons["GridToOpen"]))
         updatedGrid.click()
-
+        time.sleep(10)
     def MoreOptions(self):
         time.sleep(5)
         self.browser.find_element(*self.Locator_login_buttons["MoreOptionsOpenedFile"]).click()
@@ -177,9 +177,8 @@ class Rename(Header):
         time.sleep(10)
 
     def Bypass(self):
-        FirstNext=WebDriverWait(self.browser,20).until(
-            EC.presence_of_element_located(self.Locator_login_buttons["FirstNext"]))
-        FirstNext.click()
+        time.sleep(10)
+        self.browser.find_element(*self.Locator_login_buttons["FirstNext"]).click()
         time.sleep(2)
         self.browser.find_element(*self.Locator_login_buttons["FitlersNext"]).click()
         time.sleep(2)

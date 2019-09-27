@@ -39,8 +39,13 @@ class Unshare(Header):
         "Unshare":(By.XPATH,'//*[@id="unshareLink"]'),
         "UnshareConfirm":(By.XPATH,'//*[@id="unshareModel"]/div/footer/div/div/input'),
         "UnshareModal":(By.XPATH,'//*[@id="unshareModel"]/div'),
-        "ShareCount":(By.XPATH,'/html/body/div/ui-view/div[5]/div[3]/div/div[3]/ol/li[2]/div/div/div[2]/div[1]/ul/li[1]/span[2]')
-
+        "ShareCount":(By.XPATH,'/html/body/div/ui-view/div[5]/div[3]/div/div[3]/ol/li[2]/div/div/div[2]/div[1]/ul/li[1]/span[2]'),
+         "ShareButtonOpenedGrid":(By.XPATH,'//*[@id="share-link-modal"]/button'),
+        "DropDownArow":(By.XPATH,'//*[@id="shareModal"]/div/footer/div[1]/div/div/div'),
+        "UnshareOptionOfShareButton":(By.XPATH,'//*[@id="unshareLink"]'),
+        "ConfirmUnshare":(By.XPATH,'//*[@id="unshareModel"]/div/footer/div/div/input'),
+        "CloseGrid":(By.XPATH,'/html/body/div/ui-view/div/div/div[1]/header/div[1]/div[2]/div[1]/div[1]/a[1]/span'),
+        "ClickClose":(By.XPATH,'//*[@id="shareModal"]/div/header/div/span[1]')
         }
 
 
@@ -79,3 +84,39 @@ class Unshare(Header):
          assert (count)
         except:
          assert (True)
+        print ("File Unshared Successfully !")
+
+    def Open(self):
+        shareClick = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["ShareButtonOpenedGrid"]))
+        shareClick.click()
+
+    def UnshareDropDown(self):
+        ShareButtonDropDown = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["DropDownArow"]))
+        ShareButtonDropDown.click()
+
+    def UnshareOptionClick(self):
+        Unshare = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["UnshareOptionOfShareButton"]))
+        Unshare.click()
+
+    def ConfrimUnshare(self):
+        ConfirmUnshare = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["ConfirmUnshare"]))
+        ConfirmUnshare.click()
+        time.sleep(10)
+
+    def CloseIt(self):
+        CloseFile = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["CloseGrid"]))
+        CloseFile.click()
+        print ("File Unshare from share button after opening it in My Data tab successfully "
+               "executed and passed !")
+
+    def CloseShareModal(self):
+        ClickClose = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["ClickClose"]))
+        ClickClose.click()
+
+
