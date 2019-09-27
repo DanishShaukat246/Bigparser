@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/RenameTest.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/failures/Unsharing a file in all possible scenarios.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Unsharing a file in all possible scenarios.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +187,8 @@
       <workItem from="1569493783224" duration="4567000" />
       <workItem from="1569499750087" duration="139000" />
       <workItem from="1569500230909" duration="1326000" />
-      <workItem from="1569583317301" duration="9237000" />
+      <workItem from="1569583317301" duration="10348000" />
+      <workItem from="1569606378008" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="Clearification">
       <created>1568877711641</created>
