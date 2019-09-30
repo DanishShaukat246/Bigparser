@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +185,7 @@
       <workItem from="1569499750087" duration="139000" />
       <workItem from="1569500230909" duration="1326000" />
       <workItem from="1569583317301" duration="10348000" />
-      <workItem from="1569606378008" duration="3065000" />
+      <workItem from="1569606378008" duration="3812000" />
     </task>
     <task id="LOCAL-00001" summary="Clearification">
       <created>1568877711641</created>
