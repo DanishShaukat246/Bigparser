@@ -66,6 +66,20 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then click on ushare button of confirmation dialogue
     Then close the grid
     Then Verify that share count updates after unsharing a grid
+    Then click on share button
+    Then Click on Private radio button
+    Then Click on email field and enter email you want to use
+    Then Click on Share Button to share file
+    Then Verify that shared Confirmation pop up appears
+    Then Go to Shared Tab
+    Then click on share type drop down and select  "Shared by me"
+    Then verify that your shared file is present in shared tab
+    Then go back to My Data tab
+    Then Click on Share Button bellow that grid
+    Then Click on Drop down icon on share button
+    Then Click on Unshare
+    Then Check "Select All" and "Multi Select" radio buttons
+    Then Click on unshare button
     Then Delete the file
     Then Howe over profile icon and select Quick links
     Then Click on Get Started

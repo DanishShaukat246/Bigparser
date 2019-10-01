@@ -80,3 +80,51 @@ def step_impl(context):
 def step_impl(context):
     unshare = Unshare(context)
     unshare.CloseShareModal()
+
+
+@then("Click on Private radio button")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.PrivateRadioButtonClick()
+
+
+@then("Click on email field and enter email you want to use")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.EnterEmail()
+
+
+@then("Go to Shared Tab")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.GoToSharedTab()
+
+
+@then("Verify that shared Confirmation pop up appears")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.Verify()
+
+
+@then('click on share type drop down and select  "Shared by me"')
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.SharedByMe()
+
+
+@then('Check "Select All" and "Multi Select" radio buttons')
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.SelectPermissions()
+
+
+@then("Click on unshare button")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.UnshareButtonClick()
+
+
+@then("verify that your shared file is present in shared tab")
+def step_impl(context):
+    unshare = Unshare(context)
+    unshare.VerifyPresence()

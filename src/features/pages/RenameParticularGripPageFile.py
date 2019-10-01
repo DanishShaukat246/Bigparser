@@ -69,7 +69,7 @@ class Rename(Header):
          time.sleep(20)
         else:
          c==False
-        d=WebDriverWait(self.browser,20).until(
+        d=WebDriverWait(self.browser,30).until(
              EC.presence_of_element_located(self.Locator_login_buttons["LattestUploadedFile"]))
         e=d.text
         f=False
@@ -123,8 +123,8 @@ class Rename(Header):
         assert (u)
         print ("File has been renamed without opening using more options button under grid ! \n")
     def OpenGrid(self):
-        updatedGrid=WebDriverWait(self.browser,10).until(
-            EC.presence_of_element_located(self.Locator_login_buttons["GridToOpen"]))
+        updatedGrid=WebDriverWait(self.browser,30).until(
+            EC.element_to_be_clickable(self.Locator_login_buttons["GridToOpen"]))
         updatedGrid.click()
         time.sleep(10)
     def MoreOptions(self):

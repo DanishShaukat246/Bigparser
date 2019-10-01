@@ -53,10 +53,14 @@ class DeleteGrid(Header):
     }
 
     def DeleteGrid(self):
-        self.browser.find_element(*self.Locator_login_buttons['moreOptions']).click()
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons['DeleteGridButton']).click()
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons['DeleteConfermationButton']).click()
-        time.sleep(5)
-        print ("File has been deleted !  \n")
+        try:
+         time.sleep(3)
+         self.browser.find_element(*self.Locator_login_buttons['moreOptions']).click()
+         time.sleep(3)
+         self.browser.find_element(*self.Locator_login_buttons['DeleteGridButton']).click()
+         time.sleep(5)
+         self.browser.find_element(*self.Locator_login_buttons['DeleteConfermationButton']).click()
+         time.sleep(5)
+         print ("File has been deleted !  \n")
+        except:
+            print ("Some Exception Raised During Execution ")

@@ -23,6 +23,7 @@ from src.features.pages.header import Header
 from src.features.utilities import driver
 from src.features.pages.header import Header
 from src.features.utilities import driver
+from selenium.webdriver.support.ui import Select
 
 sys.path.append("..")
 from ..utilities import configuration
@@ -45,7 +46,16 @@ class Unshare(Header):
         "UnshareOptionOfShareButton":(By.XPATH,'//*[@id="unshareLink"]'),
         "ConfirmUnshare":(By.XPATH,'//*[@id="unshareModel"]/div/footer/div/div/input'),
         "CloseGrid":(By.XPATH,'/html/body/div/ui-view/div/div/div[1]/header/div[1]/div[2]/div[1]/div[1]/a[1]/span'),
-        "ClickClose":(By.XPATH,'//*[@id="shareModal"]/div/header/div/span[1]')
+        "ClickClose":(By.XPATH,'//*[@id="shareModal"]/div/header/div/span[1]'),
+        "PrivateRadioButton":(By.XPATH,'//*[@id="xls"]'),
+        "EmailField":(By.XPATH,'//*[@id="shareModal"]/div/div[2]/div[12]/div/form/input'),
+        "SharedGrid":(By.XPATH,'//*[@id="slSuccessMesg"]/ul/li[3]/a'),
+        "ShareDropDown":(By.XPATH,'//*[@id="single-button"]'),
+        "SharedByMe":(By.XPATH,'/html/body/div[1]/ui-view/div[1]/div[2]/div/div[1]/div[1]/div/div[2]/div/ul/li[3]/a'),
+        "SelectAllRadioButton":(By.XPATH,'/html/body/div[5]/div/div/div/div/div[4]/div[2]/div/div'),
+        "MultiSelectRadioButton":(By.XPATH,'/html/body/div[5]/div/div/div/div/div[4]/div[1]/div/div'),
+        "AUnshareButton":(By.XPATH,'/html/body/div[5]/div/div/div/div/footer/div[1]/div[1]/input'),
+        "LattestUploadedFileName":(By.XPATH,'/html/body/div[1]/ui-view/div[1]/div[2]/div/div[2]/ol/li[1]/div/div[1]/a/div[1]/h2')
         }
 
 
@@ -65,6 +75,7 @@ class Unshare(Header):
         unshare = WebDriverWait(self.browser, 10).until(
             EC.presence_of_element_located(self.UnshareFeatureXpaths["Unshare"]))
         unshare.click()
+        time.sleep(10)
 
     def UnshareModal(self):
         unsharemodal = WebDriverWait(self.browser, 10).until(
@@ -119,4 +130,61 @@ class Unshare(Header):
             EC.presence_of_element_located(self.UnshareFeatureXpaths["ClickClose"]))
         ClickClose.click()
 
+    def PrivateRadioButtonClick(self):
+        ClickPrivate = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["PrivateRadioButton"]))
+        ClickPrivate.click()
 
+    def EnterEmail(self):
+        EmailEntry = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["EmailField"]))
+        EmailEntry.click()
+        self.browser.find_element(*self.UnshareFeatureXpaths["EmailField"]).send_keys("tester123@gmail.com")
+
+    def GoToSharedTab(self):
+        Shared = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["SharedGrid"]))
+        Shared.click()
+
+    def Verify(self):
+        SharedMessage = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["SharedGrid"]))
+        assert (SharedMessage.is_displayed())
+
+    def SharedByMe(self):
+        Shared = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["ShareDropDown"]))
+        Shared.click()
+        Shared = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["SharedByMe"]))
+        Shared.click()
+
+
+    def SelectPermissions(self):
+        try:
+         SelectAll = WebDriverWait(self.browser, 10).until(
+            EC.element_to_be_clickable(self.UnshareFeatureXpaths["SelectAllRadioButton"]))
+         SelectAll.click()
+         MultiSelect = WebDriverWait(self.browser, 10).until(
+            EC.element_to_be_clickable(self.UnshareFeatureXpaths["MultiSelectRadioButton"]))
+         MultiSelect.click()
+        except:
+         print("Failed due to timeout")
+
+    def UnshareButtonClick(self):
+        try:
+         SelectAll = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["AUnshareButton"]))
+         SelectAll.click()
+         time.sleep(10)
+        except:
+            print("Failed Due to time out exception")
+
+    def VerifyPresence(self):
+        LattestUplodedFileName = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.UnshareFeatureXpaths["LattestUploadedFileName"]))
+        heading=LattestUplodedFileName.text
+        if(heading=="Second Edited Name"):
+            assert (True)
+        else:
+            assert (False)
