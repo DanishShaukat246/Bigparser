@@ -75,11 +75,10 @@ class QuickLink(Header):
 
 
     def ClickQuickLinksButton(self):
-        elem = WebDriverWait(self.browser, 30).until(
+        elem = WebDriverWait(self.browser, 10).until(
             EC.visibility_of_element_located((self.locator_dictionary["profileicon"])))
         ActionChains(self.browser).move_to_element(elem).perform()
-        time.sleep(5)
-        quick = WebDriverWait(self.browser, 30).until(
+        quick = WebDriverWait(self.browser, 10).until(
             EC.element_to_be_clickable((self.locator_dictionary["QuickLinks"])))
         quick.click()
 

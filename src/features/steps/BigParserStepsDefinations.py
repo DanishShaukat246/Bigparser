@@ -64,3 +64,9 @@ def step_impl(context):
 def step_impl(context):
     bp=benefitsPages(context)
     bp.afterRandomizing()
+
+
+@then("Switch to Incognito and open copied")
+def step_impl(context):
+    bp=benefitsPages(context)
+    bp.incognito()

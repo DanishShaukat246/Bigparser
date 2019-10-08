@@ -1,19 +1,9 @@
 from lib2to3.fixes.fix_input import context
-from uuid import UUID
-
-from selenium.webdriver.common.by import By
-import json, os
-from src.features.pages.header import Header
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.action_chains import ActionChains
-from src.features.utilities import driver, configuration
 import time
-import random
-import datetime
-from array import *
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from src.features.pages.temporary import *
 from src.features.pages.signinpage import SignInPage
-from random import *
 
 
 class benefitsPagesSignIn(Header):
@@ -51,7 +41,7 @@ class benefitsPagesSignIn(Header):
         signinPage.assertUrl(url)
 
     def verifyFieldPresence(self):
-        time.sleep(10)
+
         a = self.browser.find_element(*self.Locator_login_buttons['EmailForSignIn']).is_displayed()
         b = self.browser.find_element(*self.Locator_login_buttons['PasswordForSignIn']).is_displayed()
         c = self.browser.find_element(*self.Locator_login_buttons['SignInButton']).is_displayed()
@@ -88,16 +78,16 @@ class benefitsPagesSignIn(Header):
         assert (e)
 
     def continuePress(self):
-        self.browser.find_element(*self.Locator_login_buttons['continueButton']).click()
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons['firstNextButton']).click()
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons['secondNextButton']).click()
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons['thirdNextButton']).click()
-        time.sleep(3)
-        self.browser.find_element(*self.Locator_login_buttons['finishButton']).click()
-        time.sleep(3)
+        WebDriverWait(self.browser,5).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["continueButton"])).click()
+        WebDriverWait(self.browser, 5).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["firstNextButton"])).click()
+        WebDriverWait(self.browser, 5).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["secondNextButton"])).click()
+        WebDriverWait(self.browser, 5).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["thirdNextButton"])).click()
+        WebDriverWait(self.browser, 5).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["finishButton"])).click()
 
     def forgetClick(self):
         self.browser.find_element(*self.Locator_login_buttons['FogotYourPassword']).click()

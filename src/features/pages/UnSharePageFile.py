@@ -72,11 +72,10 @@ class Unshare(Header):
         deopDownbutton.click()
 
     def ClickUnshare(self):
-        unshare = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["Unshare"]))
-        unshare.click()
-        time.sleep(10)
 
+        unshare = WebDriverWait(self.browser, 20).until(
+            EC.visibility_of_element_located(self.UnshareFeatureXpaths["Unshare"]))
+        unshare.click()
     def UnshareModal(self):
         unsharemodal = WebDriverWait(self.browser, 10).until(
             EC.presence_of_element_located(self.UnshareFeatureXpaths["UnshareModal"]))
@@ -84,13 +83,13 @@ class Unshare(Header):
         assert (ModalLocated)
 
     def DialogueBoxConfirm(self):
-        unshareConfrim = WebDriverWait(self.browser, 10).until(
+        WebDriverWait(self.browser, 10).until(
             EC.presence_of_element_located(self.UnshareFeatureXpaths["UnshareConfirm"]))
-        unshareConfrim.click()
+        self.browser.find_element(*self.UnshareFeatureXpaths["UnshareConfirm"]).click()
 
     def shareCount(self):
         try:
-         time.sleep(10)
+         WebDriverWait(self.browser,15).until(EC.visibility_of_element_located(self.UnshareFeatureXpaths["ShareCount"]))
          count=self.browser.find_element(*self.UnshareFeatureXpaths["ShareCount"]).is_displayed()
          assert (count)
         except:
@@ -98,12 +97,10 @@ class Unshare(Header):
         print ("File Unshared Successfully !")
 
     def Open(self):
-        shareClick = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["ShareButtonOpenedGrid"]))
-        shareClick.click()
-
+        time.sleep(2)
+        self.browser.find_element(*self.UnshareFeatureXpaths["ShareButtonOpenedGrid"]).click()
     def UnshareDropDown(self):
-        ShareButtonDropDown = WebDriverWait(self.browser, 10).until(
+        ShareButtonDropDown = WebDriverWait(self.browser, 20).until(
             EC.presence_of_element_located(self.UnshareFeatureXpaths["DropDownArow"]))
         ShareButtonDropDown.click()
 
@@ -131,14 +128,12 @@ class Unshare(Header):
         ClickClose.click()
 
     def PrivateRadioButtonClick(self):
-        ClickPrivate = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["PrivateRadioButton"]))
-        ClickPrivate.click()
+        time.sleep(5)
+        self.browser.find_element(*self.UnshareFeatureXpaths["PrivateRadioButton"]).click()
 
     def EnterEmail(self):
-        EmailEntry = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["EmailField"]))
-        EmailEntry.click()
+
+        self.browser.find_element(*self.UnshareFeatureXpaths["EmailField"]).click()
         self.browser.find_element(*self.UnshareFeatureXpaths["EmailField"]).send_keys("tester123@gmail.com")
 
     def GoToSharedTab(self):
@@ -152,7 +147,7 @@ class Unshare(Header):
         assert (SharedMessage.is_displayed())
 
     def SharedByMe(self):
-        Shared = WebDriverWait(self.browser, 10).until(
+        Shared = WebDriverWait(self.browser, 20).until(
             EC.presence_of_element_located(self.UnshareFeatureXpaths["ShareDropDown"]))
         Shared.click()
         Shared = WebDriverWait(self.browser, 10).until(
@@ -181,8 +176,8 @@ class Unshare(Header):
             print("Failed Due to time out exception")
 
     def VerifyPresence(self):
-        LattestUplodedFileName = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["LattestUploadedFileName"]))
+        LattestUplodedFileName = WebDriverWait(self.browser, 30).until(
+            EC.visibility_of_element_located(self.UnshareFeatureXpaths["LattestUploadedFileName"]))
         heading=LattestUplodedFileName.text
         if(heading=="Second Edited Name"):
             assert (True)

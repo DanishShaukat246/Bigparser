@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/features/featurefiles/Incognito.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/failures/Unsharing a file in all possible scenarios.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Unsharing a file in all possible scenarios.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/failures/Share a file publically,unlistedly,privatly and verify it has been shared.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Share a file publically,unlistedly,privatly and verify it has been shared.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/DeleteGridPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/DeleteGridPageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/BigParserSignIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/BigParserSignIn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/QuickLinksPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/QuickLinksPageFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/BigParserStepsDefinations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/FileSharingStepFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Gherkin feature file" />
         <option value="Python Script" />
+        <option value="Gherkin feature file" />
       </list>
     </option>
   </component>
@@ -46,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/avanoo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
@@ -84,7 +88,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+    <configuration name="FileSharingFeatureFile.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="BigParserAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,8 +98,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/FileSharingFeatureFile.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -114,43 +117,57 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QuikLinks.feature:Open Quick links and verify that they are loading and working fine" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+    <configuration name="FileSharingPageFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigParserAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/features/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/QuikLinks.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Open Quick links and verify that they are loading and working fine" />
-      <option name="ADDITIONAL_ARGS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unshare.feature:Unsharing a file in all possible scenarios" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+    <configuration name="UnSharePageFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BigParserAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/features/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/src/features/featurefiles/Unshare.feature" />
-      <SCENRAIO_NAMES SCENRAIO_NAMES="Unsharing a file in all possible scenarios" />
-      <option name="ADDITIONAL_ARGS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Behave.BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file" />
-        <item itemvalue="Behave.Unshare.feature:Unsharing a file in all possible scenarios" />
-        <item itemvalue="Behave.QuikLinks.feature:Open Quick links and verify that they are loading and working fine" />
-        <item itemvalue="Behave.BPMainFlow.feature:Create an account and sigin in.Then upload a file , rename it and logout after deleting that file" />
         <item itemvalue="Behave.FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared" />
+        <item itemvalue="Python.UnSharePageFile" />
+        <item itemvalue="Behave.FileSharingFeatureFile.feature" />
+        <item itemvalue="Python.FileSharingPageFile" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +215,12 @@
       <workItem from="1569583317301" duration="10348000" />
       <workItem from="1569606378008" duration="3812000" />
       <workItem from="1569841311001" duration="9601000" />
-      <workItem from="1569909030533" duration="6672000" />
+      <workItem from="1569909030533" duration="14184000" />
+      <workItem from="1570017330610" duration="9850000" />
+      <workItem from="1570096852717" duration="19450000" />
+      <workItem from="1570194322889" duration="6447000" />
+      <workItem from="1570441223216" duration="17265000" />
+      <workItem from="1570518251864" duration="19500000" />
     </task>
     <task id="LOCAL-00001" summary="Clearification">
       <created>1568877711641</created>
@@ -311,28 +333,34 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChilternRailway$RenameParticularGrid_feature.coverage" NAME="RenameParticularGrid.feature Coverage Results" MODIFIED="1567084381607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1569915332686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1570541566317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature.coverage" NAME="FileUploadCofermationBox.feature Coverage Results" MODIFIED="1566994354083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="BPSignIn.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566554233264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BigParserFunctions.coverage" NAME="BigParserFunctions Coverage Results" MODIFIED="1566483701473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature_Upload_files_but_dont_overwrite_exiting_file.coverage" NAME="FileUploadCofermationBox.feature:Upload files but dont overwrite exiting file Coverage Results" MODIFIED="1566994554584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature_Upload_files_but_dont_overwrite_exiting_file.coverage" NAME="FileUploading.feature:Upload files but dont overwrite exiting file Coverage Results" MODIFIED="1566989015117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$UnSharePageFile.coverage" NAME="UnSharePageFile Coverage Results" MODIFIED="1570525918566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPFileUpload.coverage" NAME="BPFileUpload Coverage Results" MODIFIED="1566899895330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
     <SUITE FILE_PATH="coverage/ChilternRailway$ChilternRailways_feature.coverage" NAME="ChilternRailways.feature Coverage Results" MODIFIED="1567150454573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$Incognito_feature___Enter_scenario_name_here.coverage" NAME="Incognito.feature:# Enter scenario name here Coverage Results" MODIFIED="1570113503991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadOverwite_feature.coverage" NAME="FileUploadOverwite.feature Coverage Results" MODIFIED="1566996146104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature_Verify_all_possitve_and_negative_test_cases.coverage" NAME="BPSignIn.feature:Verify all possitve and negative test cases Coverage Results" MODIFIED="1566894283227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BigParserAutomation$Unshare_feature_Unsharing_a_file_in_all_possible_scenarios.coverage" NAME="Unshare.feature:Unsharing a file in all possible scenarios Coverage Results" MODIFIED="1569855458002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$fielUploadComitDone_feature.coverage" NAME="fielUploadComitDone.feature Coverage Results" MODIFIED="1567150529828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$FileSharingPageFile.coverage" NAME="FileSharingPageFile Coverage Results" MODIFIED="1570452382703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
     <SUITE FILE_PATH="coverage/ChilternRailway$forgetPassword_feature.coverage" NAME="forgetPassword.feature Coverage Results" MODIFIED="1567067268523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature_Upload_files_with_deferent_formates.coverage" NAME="FileUploading.feature:Upload files with deferent formates Coverage Results" MODIFIED="1566994443453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature.coverage" NAME="BPSignIn.feature Coverage Results" MODIFIED="1567150405445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/BigParserAutomation$QuikLinks_feature_Open_Quick_links_and_verify_that_they_are_loading_and_working_fine.coverage" NAME="QuikLinks.feature:Open Quick links and verify that they are loading and working fine Coverage Results" MODIFIED="1569249740510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature_Cencel_uploading_a_file_if_it_already_exist.coverage" NAME="FileUploading.feature:Cencel uploading a file if it already exist Coverage Results" MODIFIED="1566892845999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploading_feature.coverage" NAME="FileUploading.feature Coverage Results" MODIFIED="1566994245228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$FileSharingFeatureFile_feature.coverage" NAME="FileSharingFeatureFile.feature Coverage Results" MODIFIED="1570452904763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCencel_feature.coverage" NAME="FileUploadCencel.feature Coverage Results" MODIFIED="1566994653716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Bigparser$FileSharingFeatureFile_feature_Share_a_file_publically_unlistedly_privatly_and_verify_it_has_been_shared.coverage" NAME="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared Coverage Results" MODIFIED="1568714061316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$RenameParticularGripPageFile.coverage" NAME="RenameParticularGripPageFile Coverage Results" MODIFIED="1567079037357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />
     <SUITE FILE_PATH="coverage/Bigparser$BPSignIn_feature_Verify_all_possitve_and_negative_test_cases.coverage" NAME="BPSignIn.feature:Verify all possitve and negative test cases Coverage Results" MODIFIED="1568641842904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$Incognito_feature.coverage" NAME="Incognito.feature Coverage Results" MODIFIED="1570113200244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$FileSharingFeatureFile_feature_Share_a_file_publically_unlistedly_privatly_and_verify_it_has_been_shared.coverage" NAME="FileSharingFeatureFile.feature:Share a file publically,unlistedly,privatly and verify it has been shared Coverage Results" MODIFIED="1570540414948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$ChilternRailways_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="ChilternRailways.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566892894173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$DownloadFeatureFile_feature_Download_a_file_and_verify_that_it_exists_in_download_directry.coverage" NAME="DownloadFeatureFile.feature:Download a file and verify that it exists in download directry Coverage Results" MODIFIED="1568621822496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$fielUploadComitDone_feature_If_file_is_already_existing_cencel_by_clicking_cross_buttona_and_then_click_done_button_and_verify_that_no_file_gets_uploaded.coverage" NAME="fielUploadComitDone.feature:If file is already existing cencel by clicking cross buttona and then click done button and verify that no file gets uploaded Coverage Results" MODIFIED="1567062162902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

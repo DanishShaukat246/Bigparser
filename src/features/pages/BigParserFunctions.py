@@ -1,6 +1,7 @@
 from lib2to3.fixes.fix_input import context
 from uuid import UUID
 from selenium.webdriver.common.by import By
+from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -42,6 +43,7 @@ class benefitsPages(Header):
 
     def entername(self):
         self.browser.find_element(*self.Locator_login_buttons['NameForSignUp']).send_keys("Testing name 123")
+        time.sleep(5)
 
     def enterPassword(self):
         self.browser.find_element(*self.Locator_login_buttons['PasswordForSignUp']).send_keys("12345678111")
@@ -83,3 +85,20 @@ class benefitsPages(Header):
     def afterRandomizing(self):
         self.browser.find_element(*self.Locator_login_buttons['SignUpButton']).click()
 
+    def incognito(self):
+        time.sleep(10)
+        b = self.browser.find_element(*self.Locator_login_buttons['NameForSignUp']).is_displayed()
+        c = self.browser.find_element(*self.Locator_login_buttons['PasswordForSignUp']).is_displayed()
+        d = self.browser.find_element(*self.Locator_login_buttons['EmailForSignUp']).is_displayed()
+        e = self.browser.find_element(*self.Locator_login_buttons['SignUpButton']).is_displayed()
+        assert (b)
+        assert (c)
+        assert (d)
+        assert (e)
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument("--incognito")
+        window_2 = self.browser.window_handles[0]
+        self.browser.switch_to_window(window_2)
+        driver = webdriver.Chrome('C:\Users\ZAWAR-PC\Desktop\chromedriver.exe')
+        driver.get("https://chrome.google.com/webstore/category/extensions?hl=en")
+        time.sleep(10)

@@ -69,7 +69,8 @@ class Rename(Header):
          time.sleep(20)
         else:
          c==False
-        d=WebDriverWait(self.browser,30).until(
+         time.sleep(10)
+        d=WebDriverWait(self.browser,50).until(
              EC.presence_of_element_located(self.Locator_login_buttons["LattestUploadedFile"]))
         e=d.text
         f=False
@@ -85,52 +86,48 @@ class Rename(Header):
         time.sleep(2)
 
     def ClickRename(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["Rename"]).click()
-        time.sleep(2)
+        WebDriverWait(self.browser,10).until(EC.visibility_of_element_located(self.Locator_login_buttons["Rename"])).click()
 
     def RenameEdit(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["RenameTextField"]).clear()
-        time.sleep(2)
-        self.browser.find_element(*self.Locator_login_buttons["RenameTextField"]).send_keys("Edited Name")
-
+        WebDriverWait(self.browser,10).until(EC.visibility_of_element_located(self.Locator_login_buttons["RenameTextField"])).clear()
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["RenameTextField"])).send_keys("Edited Name")
     def RenameDone(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["RenameButton"]).click()
-        time.sleep(3)
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["RenameButton"])).click()
 
     def RenameConfermation(self):
-        r=self.browser.find_element(*self.Locator_login_buttons["RenameConfermationNote"]).is_displayed()
+        WebDriverWait(self.browser,20).until(EC.visibility_of_element_located(self.Locator_login_buttons["RenameConfermationNote"]))
+        r = self.browser.find_element(*self.Locator_login_buttons["RenameConfermationNote"]).is_displayed()
         assert (r)
         time.sleep(2)
 
     def RenameClose(self):
         self.browser.find_element(*self.Locator_login_buttons["RenameCloseButton"]).click()
-        time.sleep(10)
+
 
     def VerifyRenamed(self):
-        q=self.browser.find_element(*self.Locator_login_buttons["LattestUploadedFile"]).is_displayed()
+        q = WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["LattestUploadedFile"])).is_displayed()
         assert (q)
         s = self.browser.find_element(*self.Locator_login_buttons["LattestUploadedFile"])
         time.sleep(5)
-        t=s.text
-        u=False
-        if t=="Edited Name":
-         u=True
+        t = s.text
+        u = False
+        if t == "Edited Name":
+         u = True
         else:
          assert (u)
         assert (u)
         print ("File has been renamed without opening using more options button under grid ! \n")
     def OpenGrid(self):
-        updatedGrid=WebDriverWait(self.browser,30).until(
+        updatedGrid = WebDriverWait(self.browser, 10).until(
             EC.element_to_be_clickable(self.Locator_login_buttons["GridToOpen"]))
         updatedGrid.click()
-        time.sleep(10)
+
     def MoreOptions(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["MoreOptionsOpenedFile"]).click()
-        time.sleep(3)
+        updatedGrid = WebDriverWait(self.browser, 30).until(
+            EC.element_to_be_clickable(self.Locator_login_buttons["MoreOptionsOpenedFile"])).click()
 
     def RenameClickOpenedFile(self):
         renameOption=WebDriverWait(self.browser,20).until(
@@ -139,20 +136,19 @@ class Rename(Header):
         time.sleep(3)
 
     def EditthatName(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["RenameAfterOpenEditField"]).clear()
-        time.sleep(2)
-        self.browser.find_element(*self.Locator_login_buttons["RenameAfterOpenEditField"]).send_keys("Second Edited Name")
+        WebDriverWait(self.browser, 20).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["RenameAfterOpenEditField"])).clear()
+        WebDriverWait(self.browser, 20).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["RenameAfterOpenEditField"])).send_keys("Second Edited Name")
 
     def ClickRenameButton(self):
-        time.sleep(5)
-        self.browser.find_element(*self.Locator_login_buttons["RenameButtonAfterOpening"]).click()
-        time.sleep(3)
+        WebDriverWait(self.browser, 20).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["RenameButtonAfterOpening"])).click()
 
     def ConfermafterOpen(self):
-        m = self.browser.find_element(*self.Locator_login_buttons["RenameConfermationNote"]).is_displayed()
+        m =  WebDriverWait(self.browser, 30).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["RenameConfermationNote"])).is_displayed()
         assert (m)
-        time.sleep(2)
 
     def Cross(self):
         self.browser.find_element(*self.Locator_login_buttons["Cross"]).click()
@@ -170,21 +166,25 @@ class Rename(Header):
         else:
             assert (n)
         assert (n)
-        time.sleep(5)
         print ("File has been renamed after opening it and we have verified that title is renamed successfully !  \n")
     def CloseGrid(self):
-        self.browser.find_element(*self.Locator_login_buttons["CloseGrid"]).click()
-        time.sleep(10)
+
+        WebDriverWait(self.browser,20).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["CloseGrid"])).click()
 
     def Bypass(self):
-        time.sleep(10)
-        self.browser.find_element(*self.Locator_login_buttons["FirstNext"]).click()
+
+        WebDriverWait(self.browser,20).until(EC.visibility_of_element_located(self.Locator_login_buttons["FirstNext"])).click()
         time.sleep(2)
-        self.browser.find_element(*self.Locator_login_buttons["FitlersNext"]).click()
+        WebDriverWait(self.browser, 20).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["FitlersNext"])).click()
         time.sleep(2)
-        self.browser.find_element(*self.Locator_login_buttons["DownloadNext"]).click()
+        WebDriverWait(self.browser, 20).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["DownloadNext"])).click()
         time.sleep(2)
-        self.browser.find_element(*self.Locator_login_buttons["DemoFinish"]).click()
+        WebDriverWait(self.browser, 20).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["DemoFinish"])).click()
+
         time.sleep(5)
 
 
