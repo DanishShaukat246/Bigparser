@@ -1,32 +1,10 @@
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
-import sys
-from lib2to3.fixes.fix_input import context
-from uuid import UUID
 
-from selenium.webdriver.common.by import By
-import json, os
-from src.features.pages.header import Header
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.action_chains import ActionChains
-from src.features.utilities import driver, configuration
-import time
-import random
-import datetime
-from array import *
-from src.features.pages.temporary import *
-from selenium import webdriver
+import sys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from src.features.pages.header import Header
-from src.features.utilities import driver
-from src.features.pages.header import Header
-from src.features.utilities import driver
-from selenium.webdriver.support.ui import Select
-
 sys.path.append("..")
-from ..utilities import configuration
 import time
 
 class Unshare(Header):
@@ -100,8 +78,8 @@ class Unshare(Header):
         time.sleep(2)
         self.browser.find_element(*self.UnshareFeatureXpaths["ShareButtonOpenedGrid"]).click()
     def UnshareDropDown(self):
-        ShareButtonDropDown = WebDriverWait(self.browser, 20).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["DropDownArow"]))
+        ShareButtonDropDown = WebDriverWait(self.browser, 50).until(
+            EC.visibility_of_element_located(self.UnshareFeatureXpaths["DropDownArow"]))
         ShareButtonDropDown.click()
 
     def UnshareOptionClick(self):
@@ -148,12 +126,10 @@ class Unshare(Header):
 
     def SharedByMe(self):
         Shared = WebDriverWait(self.browser, 20).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["ShareDropDown"]))
+            EC.visibility_of_element_located(self.UnshareFeatureXpaths["ShareDropDown"]))
         Shared.click()
-        Shared = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["SharedByMe"]))
-        Shared.click()
-
+        time.sleep(3)
+        self.browser.find_element(*self.UnshareFeatureXpaths["SharedByMe"]).click()
 
     def SelectPermissions(self):
         try:

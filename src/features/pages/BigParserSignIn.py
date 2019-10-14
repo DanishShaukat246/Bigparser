@@ -1,5 +1,7 @@
 from lib2to3.fixes.fix_input import context
 import time
+from random import randint
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from src.features.pages.temporary import *
@@ -33,7 +35,15 @@ class benefitsPagesSignIn(Header):
         "error page password field":(By.XPATH,'/html/body/div/ui-view/div/div/section/div/form/div[2]/input'),
         "eror page sign in button":(By.XPATH,'/html/body/div/ui-view/div/div/section/div/form/div[3]/input'),
         "Big Parser iscon of Home Page":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[2]/a/img'),
-        "Existing email error pop up": (By.XPATH, '/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[2]/div/div[3]')
+        "Existing email error pop up": (By.XPATH, '/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[2]/div/div[3]'),
+        "CreateAccount":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/input'),
+        "NameError":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[1]/div/div'),
+        "EmailError":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[2]/div/div[1]'),
+        "PasswordError":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/div[1]/div'),
+        "NameField":(By.XPATH,'//*[@id="fullName"]'),
+        "EmailField":(By.XPATH,'//*[@id="emailAddr"]'),
+        "PasswordField":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/input'),
+        "InvalidPasswordMessage":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/div[2]/div')
     }
 
     def loadBigparserSignIn(self, url):
@@ -120,6 +130,58 @@ class benefitsPagesSignIn(Header):
         self.browser.find_element(*self.Locator_login_buttons['PasswordFieldGmail']).send_keys('123456789')
         self.browser.find_element(*self.Locator_login_buttons['NextButtonPasswordPageGmail']).click()
         time.sleep(5)
+
+    def ClickRegEmpty(self):
+        WebDriverWait(self.browser,10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["CreateAccount"])).click()
+
+
+    def ErrorName(self):
+        nameErrorMessage = WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["NameError"])).is_displayed()
+        assert (nameErrorMessage)
+
+    def EnterName(self):
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["NameField"])).send_keys("tes_12")
+
+    def ErrorEmail(self):
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["CreateAccount"])).click()
+        nameEmailMessage = WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["EmailError"])).is_displayed()
+        assert (nameEmailMessage)
+
+    def EnterEmail(self):
+        nRand = randint(1, 9999)
+
+        emailToBeCleared = WebDriverWait(self.browser, 10).until(
+            EC.presence_of_element_located(self.Locator_login_buttons["EmailField"]))
+        emailToBeCleared.send_keys("Tester_" + str(nRand) + "@gmail.com")
+
+    def ErrorPassword(self):
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["CreateAccount"])).click()
+        namePasswordMessage = WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["PasswordError"])).is_displayed()
+        assert (namePasswordMessage)
+
+    def EnterPassword(self):
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["PasswordField"])).send_keys("123456789")
+
+    def InvalidPassword(self):
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["PasswordField"])).send_keys("123")
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["CreateAccount"])).click()
+        InvalidPasswordMessage = WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["InvalidPasswordMessage"])).is_displayed()
+        assert (InvalidPasswordMessage)
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["PasswordField"])).clear()
+
+
 
 
 

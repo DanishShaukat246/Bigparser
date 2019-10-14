@@ -231,7 +231,8 @@ class Share(Header):
             assert (False)
 
     def closeShareModal(self):
-        WebDriverWait(self.browser,10).until(EC.visibility_of_element_located(self.Locator_login_buttons["closeButton"])).click()
+        WebDriverWait(self.browser,10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["closeButton"])).click()
 
     def GoShare(self):
         WebDriverWait(self.browser, 10).until(
@@ -245,12 +246,14 @@ class Share(Header):
 
     def ConfirmCopy(self):
         copyMessage = WebDriverWait(self.browser, 10).until(
-         EC.invisibility_of_element_located(self.Locator_login_buttons["CopyConfirm"]))
+            EC.invisibility_of_element_located(self.Locator_login_buttons["CopyConfirm"]))
         copyMessage.click()
 
     def SelectFile(self):
         time.sleep(2)
         self.browser.find_element(*self.Locator_login_buttons["FileSelect"]).click()
+
+
     def Done(self):
         time.sleep(2)
         self.browser.find_element(*self.Locator_login_buttons["done"]).click()

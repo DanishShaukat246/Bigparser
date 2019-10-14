@@ -1,4 +1,4 @@
-# Created by ZAWAR-PC at 8/29/2019
+
 Feature: Forget Password
 
   Scenario: Veridy that user receive email for forget password and can successfully sign in after resetting password

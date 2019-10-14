@@ -18,7 +18,7 @@ class groupStep():
         bp.loadBigparserSignIn(url)
 
 
-    @then("verify that all mendatory sign in fields are present")
+    @then("verify that all mandatory sign in fields are present")
     def step_impl(context):
        bp=benefitsPagesSignIn(context)
        bp.verifyFieldPresence()
@@ -52,7 +52,7 @@ def step_impl(context):
     bp.invalidsignInNote()
 
 
-@then("enter valid emial")
+@then("enter valid email")
 def step_impl(context):
     bp=benefitsPagesSignIn(context)
     bp.validEmail()
@@ -64,7 +64,7 @@ def step_impl(context):
     bp.validPassword()
 
 
-@then("click on sign in button for valid credentals")
+@then("click on sign in button for valid credentials")
 def step_impl(context):
 
     bp=benefitsPagesSignIn(context)
@@ -118,3 +118,50 @@ def step_impl(context):
 def step_impl(context):
     bp = benefitsPagesSignIn(context)
     bp.GmailPasswordEntry()
+
+
+@then("Click create account without entering any thing in any required fiel")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.ClickRegEmpty()
+
+
+@then('Verify that Error message "Please Enter your name" appears')
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.ErrorName()
+
+@then("Enter name")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.EnterName()
+
+
+@then("Click Create account and verify Error message of Empty email field appears")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.ErrorEmail()
+
+
+@then("Enter email")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.EnterEmail()
+
+
+@then("Click Create account and verify error message of empty password field appears")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.ErrorPassword()
+
+
+@then("Enter password")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.EnterPassword()
+
+
+@then("Enter invalid password and verify error message appears")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.InvalidPassword()

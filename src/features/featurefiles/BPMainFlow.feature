@@ -1,15 +1,19 @@
-
 Feature: Bigparser general flow which a user follows in this web Application
 
   Scenario: Create an account and sig in in.Then upload a file , rename it and logout after deleting that file
 
     Given user is at home page
 
-   #SignUp and login
+   #SignUp
     Then verify that all mandatory fields are present
+    Then Click create account without entering any thing in any required fiel
+    Then Verify that Error message "Please Enter your name" appears
     Then Enter name in full name field
-    Then Enter Password in password field
+    Then Click Create account and verify Error message of Empty email field appears
     Then Enter email in email field
+    Then Click Create account and verify error message of empty password field appears
+    Then Enter invalid password and verify error message appears
+    Then Enter Password in password field
     Then Click on Sign Up button
     Then verify that user shows error massage of already existing email
     Then Enter new mail which is not already register
@@ -19,9 +23,50 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then verify that user is on get started page
     Then click on continue and next button then ultimately finish demo screen
 
+     #Log out
+    Then sign out
+
+    #Sign In
+    Then verify that all mandatory sign in fields are present
+    Then enter invalid email for sign in
+    Then enter invalid password
+    Then click on sign in button
+    Then verify that user see error note in case of invalid credentials
+    Then enter valid email
+    Then enter valid password
+    Then click on sign in button for valid credentials
+    Then verify that user is at home page
+
+    #App Store
+    Then Click on App Store Button on Header
+    Then Verify that user is on App Store page
+    Then Verify that "All Bigparser Apps" filter is selected By Default
+    Then Click on category filter and select "Pre-Installed Apps"
+    Then Verify that "Share App" , "Grid App" and "Plug App" widgets appear
+    Then Click on Category filter and select "Installed Apps"
+    Then Verify that "Drop Box" , "One Drive" and "Google Drive" widgets appear
+    Then Click on category filter and select "Uninstalled Apps"
+    Then Verify that your uninstalled apps appear
+    Then Click on category filter and Select "Pre-Order Apps"
+    Then Verify that Pre-Order Apps like "Facebook" , "Skype" , "Gmail" , "LinkedIn" appear
+    Then Go back to home page
+
     #File Uploading
     Then verify that uploading box is present
     Then upload file and Verify its presence
+
+     #Global Search
+    Then Enter uploaded file name in search field and verify if it is shown in grids section of My Data tab
+
+    #Cross Sheet search
+    Then Open that grid
+    Then Enter any related key work in global search bar and press Enter
+
+    #Cross Grid Search
+    Then Select Search All Grids
+    Then Click search button
+    Then Verify that Grids Found text is displayed
+    Then close grid
 
     #File Download
     Then click on download button and verify that file is downloaded
@@ -37,7 +82,6 @@ Feature: Bigparser general flow which a user follows in this web Application
 
     #Rename Fle after opening it
     Then Open that grid
-    Then Bypass demo widgets
     Then Click on more options button
     Then Click on Rename file
     Then Clear edit field and enter new name
@@ -48,6 +92,7 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then close grid
 
     #Public Sharing
+    Then Clear search field
     Then click on share button
     Then check public radio button
     Then Click on Share Button to share file
@@ -96,7 +141,9 @@ Feature: Bigparser general flow which a user follows in this web Application
     Then Verify that shared Confirmation pop up appears
     Then Go to Shared Tab
     Then click on share type drop down and select  "Shared by me"
+    Then search name of file you shared
     Then verify that your shared file is present in shared tab
+    Then Clear search field
 
     #Unsharing a privately shared file from My Data tab without opening it
     Then go back to My Data tab

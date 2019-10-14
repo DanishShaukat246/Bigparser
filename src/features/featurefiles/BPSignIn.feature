@@ -3,15 +3,10 @@ Feature:Big Parser Sign In
 
   Scenario:Verify all possitve and negative test cases
     Given user is at home page
-    Then verify that all mendatory sign in fields are present
-
-
-
-    Then enter invalid email for sign in
-    Then enter invalid password
-    Then click on sign in button
-    Then verify that user see error note in case of invalid credentials
-    Then enter valid emial
-    Then enter valid password
-    Then click on sign in button for valid credentals
-    Then verify that user is at home page
+    Then Click create account without entering any thing in any required fiel
+    Then Verify that Error message "Please Enter your name" appears
+    Then Enter name
+    Then Click Create account and verify Error message of Empty email field appears
+    Then Enter email
+    Then Click Create account and verify error message of empty password field appears
+    Then Enter password

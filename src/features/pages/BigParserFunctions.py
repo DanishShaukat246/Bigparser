@@ -55,7 +55,8 @@ class benefitsPages(Header):
         self.browser.find_element(*self.Locator_login_buttons['SignUpButton']).click()
 
     def ClickCreateAccuntButton(self):
-        time.sleep(10)
+        WebDriverWait(self.browser,20).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["continueButton"]))
         a = self.browser.find_element(*self.Locator_login_buttons['continueButton']).is_displayed()
         assert (a)
         print ("User Logged in successfully !  \n")
@@ -80,7 +81,7 @@ class benefitsPages(Header):
         emailToBeCleared = WebDriverWait(self.browser,10).until(
             EC.presence_of_element_located(self.Locator_login_buttons["EmailForSignUp"]))
         emailToBeCleared.clear()
-        emailToBeCleared.send_keys("Tester" + str(nRand) + "@gmail.com")
+        emailToBeCleared.send_keys("Tester_" + str(nRand) + "@gmail.com")
 
     def afterRandomizing(self):
         self.browser.find_element(*self.Locator_login_buttons['SignUpButton']).click()
