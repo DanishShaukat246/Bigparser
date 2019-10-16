@@ -1,6 +1,7 @@
 Feature: Bigparser general flow which a user follows in this web Application
 
-  Scenario: Create an account and sig in in.Then upload a file , rename it and logout after deleting that file
+  Scenario: Create an account and sig in in.Then upload a file , rename it , cover quick links
+            and logout after deleting that file
 
     Given user is at home page
 

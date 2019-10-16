@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3ef2597-a3a4-4626-bbf5-a18584ffb77f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BigparserAutomation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/featurefiles/AppStore.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/featurefiles/Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/pages/AppStorePageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/pages/SearchPageFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/steps/AppStoreStepFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/steps/SearchStepFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Results - ChilternRailways_feature_Book_the_ticket_and_verify_the_booking_reference_number.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Create an account and sig in in.Then upload a file , rename it and logout after deleting that file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/failures/Verify all possitve and negative test cases.png" beforeDir="false" afterPath="$PROJECT_DIR$/failures/Verify all possitve and negative test cases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (1).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (10).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (11).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (12).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (13).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (2).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (3).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (4).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (5).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (6).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (7).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (8).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/RenameTest (9).xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/BPMainFlow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/BPSignIn.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/featurefiles/forgetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/featurefiles/forgetPassword.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/BigParserFunctions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/BigParserSignIn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/BigParserSignIn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/FileSharingPageFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/RenameParticularGripPageFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/UnSharePageFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/steps/BPSignInStep.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/BPSignInStep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/steps/UnshareStepFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/AppStorePageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/AppStorePageFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +214,9 @@
       <workItem from="1570689228456" duration="12311000" />
       <workItem from="1570775070009" duration="12110000" />
       <workItem from="1571039391119" duration="1661000" />
-      <workItem from="1571061394551" duration="4438000" />
+      <workItem from="1571061394551" duration="5027000" />
+      <workItem from="1571146525377" duration="597000" />
+      <workItem from="1571213590050" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="Clearification">
       <created>1568877711641</created>
@@ -340,7 +336,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChilternRailway$RenameParticularGrid_feature.coverage" NAME="RenameParticularGrid.feature Coverage Results" MODIFIED="1567084381607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1571065231515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/BigParserAutomation$BPMainFlow_feature_Create_an_account_and_sig_in_in_Then_upload_a_file___rename_it_and_logout_after_deleting_that_file.coverage" NAME="BPMainFlow.feature:Create an account and sig in in.Then upload a file , rename it and logout after deleting that file Coverage Results" MODIFIED="1571215114121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$FileUploadCofermationBox_feature.coverage" NAME="FileUploadCofermationBox.feature Coverage Results" MODIFIED="1566994354083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BPSignIn_feature_Book_the_ticket_and_verify_the_booking_reference_number.coverage" NAME="BPSignIn.feature:Book the ticket and verify the booking reference number Coverage Results" MODIFIED="1566554233264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ChilternRailway$BigParserFunctions.coverage" NAME="BigParserFunctions Coverage Results" MODIFIED="1566483701473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features/pages" />

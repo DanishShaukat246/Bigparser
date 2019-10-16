@@ -35,7 +35,7 @@ class AppStore(Header):
 
 
     def VerifyPageLoad(self):
-        AppStore = WebDriverWait(self.browser,10).until(EC.visibility_of_element_located(self.AppStoreXpaths["AppStoreTitle"]))
+        AppStore = WebDriverWait(self.browser,20).until(EC.visibility_of_element_located(self.AppStoreXpaths["AppStoreTitle"]))
         title = AppStore.is_displayed()
         assert (title)
 
