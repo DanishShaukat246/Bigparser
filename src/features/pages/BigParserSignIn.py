@@ -2,11 +2,12 @@ from lib2to3.fixes.fix_input import context
 import time
 from random import randint
 
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from src.features.pages.temporary import *
 from src.features.pages.signinpage import SignInPage
-
+from Tkinter import Tk
 
 class benefitsPagesSignIn(Header):
     driver = None
@@ -42,8 +43,11 @@ class benefitsPagesSignIn(Header):
         "PasswordError":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/div[1]/div'),
         "NameField":(By.XPATH,'//*[@id="fullName"]'),
         "EmailField":(By.XPATH,'//*[@id="emailAddr"]'),
+        "UpdatedProfileIcon":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[6]/bp-user-avatar/span/div[1]/a/img[2]'),
+        "logout":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[6]/bp-user-avatar/span/div[1]/div/div[4]/div[4]/a'),
         "PasswordField":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/input'),
-        "InvalidPasswordMessage":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/div[2]/div')
+        "InvalidPasswordMessage":(By.XPATH,'/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[3]/div[2]/div'),
+        "ProfileIcon":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[6]/bp-user-avatar/span/div[1]/a/img[1]')
     }
 
     def loadBigparserSignIn(self, url):
@@ -60,6 +64,7 @@ class benefitsPagesSignIn(Header):
         assert (c)
 
     def enterEmail(self):
+        self.browser.find_element(*self.Locator_login_buttons['EmailForSignIn']).clear()
         self.browser.find_element(*self.Locator_login_buttons['EmailForSignIn']).send_keys("danish@gmail.com")
 
     def invalidPassword(self):
@@ -124,12 +129,10 @@ class benefitsPagesSignIn(Header):
     def EnterGmailID(self):
         self.browser.find_element(*self.Locator_login_buttons['gmailIDField']).send_keys('bigparserautomation@gmail.com')
         self.browser.find_element(*self.Locator_login_buttons['NextButtonofGmailEmailIDPage']).click()
-        time.sleep(5)
 
     def GmailPasswordEntry(self):
         self.browser.find_element(*self.Locator_login_buttons['PasswordFieldGmail']).send_keys('123456789')
         self.browser.find_element(*self.Locator_login_buttons['NextButtonPasswordPageGmail']).click()
-        time.sleep(5)
 
     def ClickRegEmpty(self):
         WebDriverWait(self.browser,10).until(
@@ -154,7 +157,6 @@ class benefitsPagesSignIn(Header):
 
     def EnterEmail(self):
         nRand = randint(1, 9999)
-
         emailToBeCleared = WebDriverWait(self.browser, 10).until(
             EC.presence_of_element_located(self.Locator_login_buttons["EmailField"]))
         emailToBeCleared.send_keys("Tester_" + str(nRand) + "@gmail.com")
@@ -180,6 +182,30 @@ class benefitsPagesSignIn(Header):
         assert (InvalidPasswordMessage)
         WebDriverWait(self.browser, 10).until(
             EC.visibility_of_element_located(self.Locator_login_buttons["PasswordField"])).clear()
+
+    def UpdatedCredentials(self):
+        # updatedEmial = Tk.clipboard_get()
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["EmailForSignIn"])).send_keys(Keys.CONTROL+"v")
+        WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["PasswordForSignIn"])).send_keys("danish123456789")
+        self.browser.find_element(*self.Locator_login_buttons['SignInButton']).click()
+        time.sleep(5)
+    def VerifyLoggedIn(self):
+         profileIcon = WebDriverWait(self.browser,10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["ProfileIcon"])).is_displayed()
+         assert (profileIcon)
+
+    def logout(self):
+         WebDriverWait(self.browser, 10).until(
+            EC.visibility_of_element_located(self.Locator_login_buttons["logout"])).click()
+         time.sleep(5)
+
+    def UpdatedCheckLogout(self):
+        WebDriverWait(self.browser,10).until(EC.visibility_of_element_located(self.Locator_login_buttons["UpdatedProfileIcon"])).click()
+        time.sleep(2)
+        self.browser.find_element(*self.Locator_login_buttons["logout"]).click()
+        time.sleep(5)
 
 
 

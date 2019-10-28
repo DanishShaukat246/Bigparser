@@ -2,6 +2,7 @@ from lib2to3.fixes.fix_input import context
 from uuid import UUID
 from selenium.webdriver.common.by import By
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -46,7 +47,7 @@ class benefitsPages(Header):
         time.sleep(5)
 
     def enterPassword(self):
-        self.browser.find_element(*self.Locator_login_buttons['PasswordForSignUp']).send_keys("12345678111")
+        self.browser.find_element(*self.Locator_login_buttons['PasswordForSignUp']).send_keys("123456789")
 
     def enterEmailForSignUp(self):
         self.browser.find_element(*self.Locator_login_buttons['EmailForSignUp']).send_keys("tester598@gmail.com")
@@ -55,12 +56,13 @@ class benefitsPages(Header):
         self.browser.find_element(*self.Locator_login_buttons['SignUpButton']).click()
 
     def ClickCreateAccuntButton(self):
-        WebDriverWait(self.browser,20).until(
+        WebDriverWait(self.browser,50).until(
             EC.visibility_of_element_located(self.Locator_login_buttons["continueButton"]))
         a = self.browser.find_element(*self.Locator_login_buttons['continueButton']).is_displayed()
         assert (a)
         print ("User Logged in successfully !  \n")
     def VerifyPresenceSignUp(self):
+        time.sleep(2)
         b = self.browser.find_element(*self.Locator_login_buttons['NameForSignUp']).is_displayed()
         c = self.browser.find_element(*self.Locator_login_buttons['PasswordForSignUp']).is_displayed()
         d = self.browser.find_element(*self.Locator_login_buttons['EmailForSignUp']).is_displayed()
@@ -82,6 +84,8 @@ class benefitsPages(Header):
             EC.presence_of_element_located(self.Locator_login_buttons["EmailForSignUp"]))
         emailToBeCleared.clear()
         emailToBeCleared.send_keys("Tester_" + str(nRand) + "@gmail.com")
+        emailToBeCleared.send_keys(Keys.CONTROL+'a')
+        emailToBeCleared.send_keys(Keys.CONTROL+'c')
 
     def afterRandomizing(self):
         self.browser.find_element(*self.Locator_login_buttons['SignUpButton']).click()

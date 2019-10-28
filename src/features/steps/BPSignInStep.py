@@ -165,3 +165,27 @@ def step_impl(context):
 def step_impl(context):
     bp = benefitsPagesSignIn(context)
     bp.InvalidPassword()
+
+
+@then("Enter email id and updated password in sign in section")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.UpdatedCredentials()
+
+
+@then("Verify that user is successfully logged in with updated credentials")
+def step_impl(context):
+    bp = benefitsPagesSignIn(context)
+    bp.VerifyLoggedIn()
+
+
+@then("log out")
+def step_impl(context):
+   bp = benefitsPagesSignIn(context)
+   bp.logout()
+
+
+@then("logout")
+def step_impl(context):
+    bp=benefitsPagesSignIn(context)
+    bp.UpdatedCheckLogout()

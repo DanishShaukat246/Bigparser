@@ -55,7 +55,6 @@ def step_impl(context):
 
 @then("sign out")
 def step_impl(context):
-
     bp=fileUpload(context)
     bp.signOut()
 

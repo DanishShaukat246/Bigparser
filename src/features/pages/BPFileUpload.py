@@ -44,6 +44,7 @@ class fileUpload(Header):
         "logout":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[6]/bp-user-avatar/span/div[1]/div/div[4]/div[4]/a'),
         "profileicon":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[6]/bp-user-avatar/span/div[1]/a/img[1]'),
         "DoneButtons": (By.XPATH, '/html/body/div/ui-view/div[5]/div[6]/div/footer/div/div/input'),
+        "UpdatedprofileLogout":(By.XPATH,'//*[@id="mainheader"]/div[2]/div/div[6]/header/div[6]/bp-user-avatar/span/div[1]/a/img[2]'),
         "cencelButton":(By.XPATH,'/html/body/div[1]/ui-view/div[5]/div[6]/div/footer/div/div/a'),
         "newRadioButton":(By.XPATH,'/html/body/div/ui-view/div[5]/div[6]/div/div[2]/ul/li[2]/div[2]/input'),
         "Existing email error pop up": (By.XPATH, '/html/body/div/ui-view/div[1]/div/div[1]/div/form/div[2]/div/div[3]')
@@ -92,9 +93,9 @@ class fileUpload(Header):
         time.sleep(5)
 
     def signOut(self):
-        time.sleep(10)
-        hover = self.browser.find_element(*self.Locator_login_buttons['profileicon'])
-        ActionChains(self.browser).move_to_element(hover).perform()
+        time.sleep(5)
+        self.browser.find_element(*self.Locator_login_buttons["profileicon"]).click()
+        # ActionChains(self.browser).move_to_element(hover).perform()
         time.sleep(2)
         self.browser.find_element(*self.Locator_login_buttons["logout"]).click()
         time.sleep(5)

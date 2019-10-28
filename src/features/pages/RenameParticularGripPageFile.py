@@ -121,6 +121,7 @@ class Rename(Header):
         assert (u)
         print ("File has been renamed without opening using more options button under grid ! \n")
     def OpenGrid(self):
+        time.sleep(3)
         updatedGrid = WebDriverWait(self.browser, 30).until(
             EC.element_to_be_clickable(self.Locator_login_buttons["GridToOpen"]))
         updatedGrid.click()

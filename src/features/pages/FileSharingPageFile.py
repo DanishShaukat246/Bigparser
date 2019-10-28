@@ -87,7 +87,7 @@ class Share(Header):
     }
 
     def clickShare(self):
-        time.sleep(3)
+        time.sleep(5)
         self.browser.find_element(*self.Locator_login_buttons["ShareButton"]).click()
     def PublicRadio(self):
         time.sleep(3)

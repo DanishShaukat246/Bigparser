@@ -144,12 +144,13 @@ class Unshare(Header):
 
     def UnshareButtonClick(self):
         try:
-         SelectAll = WebDriverWait(self.browser, 10).until(
-            EC.presence_of_element_located(self.UnshareFeatureXpaths["AUnshareButton"]))
+         time.sleep(2)
+         SelectAll = WebDriverWait(self.browser, 20).until(
+            EC.visibility_of_element_located(self.UnshareFeatureXpaths["AUnshareButton"]))
          SelectAll.click()
-         time.sleep(10)
+         time.sleep(3)
         except:
-            print("Failed Due to time out exception")
+            assert (False)
 
     def VerifyPresence(self):
         LattestUplodedFileName = WebDriverWait(self.browser, 30).until(
